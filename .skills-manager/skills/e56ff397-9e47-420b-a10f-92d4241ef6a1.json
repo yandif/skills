@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e56ff397-9e47-420b-a10f-92d4241ef6a1",
+  "path": "tldraw-offline",
+  "path_key": "tldraw-offline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

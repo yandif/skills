@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7aeab79-f047-470c-a966-136d15e54a60",
+  "path": "coding-agent-harness",
+  "path_key": "coding-agent-harness",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1609cf3-3d97-4d97-a92b-b508801e1e80",
+  "path": "kami",
+  "path_key": "kami",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f6c570f6-11c2-4d89-b92e-aee571ece391",
+  "path": "ai-coding-workflow",
+  "path_key": "ai-coding-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

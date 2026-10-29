@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "33a7d601-497a-493c-a16e-518ab32f82ae",
+  "path": "cc-tweaked",
+  "path_key": "cc-tweaked",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

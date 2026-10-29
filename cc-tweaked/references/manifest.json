@@ -1,0 +1,6277 @@
+{
+  "snapshot_date": "2026-10-03",
+  "site_last_updated": "2026-10-02",
+  "source": "https://tweaked.cc/",
+  "scope": "Homepage and all 95 documentation pages linked from the official Lua documentation navigation; excludes off-site tutorials and Java mod-development Javadoc.",
+  "pages": [
+    {
+      "url": "https://tweaked.cc/",
+      "category": "home",
+      "name": "index",
+      "title": "CC: Tweaked",
+      "path": "pages/home--index.md",
+      "total_source_lines": 253,
+      "covered_source_lines": 253,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "267fd3a88fab1fb8de803a738ca462f4bfa159f3bb20f2cdc757c7dfbbf6891e"
+    },
+    {
+      "url": "https://tweaked.cc/module/_G.html",
+      "category": "module",
+      "name": "_G",
+      "title": "_G",
+      "path": "pages/module--_G.md",
+      "total_source_lines": 297,
+      "covered_source_lines": 297,
+      "body_start_source_line": 126,
+      "members": [
+        {
+          "signature": "sleep([time=0])",
+          "name": "sleep",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 166,
+          "line": 15,
+          "end_line": 45
+        },
+        {
+          "signature": "write(text)",
+          "name": "write",
+          "source_line": 167,
+          "kind": "callable",
+          "end_source_line": 185,
+          "line": 46,
+          "end_line": 64
+        },
+        {
+          "signature": "print(...)",
+          "name": "print",
+          "source_line": 186,
+          "kind": "callable",
+          "end_source_line": 201,
+          "line": 65,
+          "end_line": 80
+        },
+        {
+          "signature": "printError(...)",
+          "name": "printError",
+          "source_line": 202,
+          "kind": "callable",
+          "end_source_line": 213,
+          "line": 81,
+          "end_line": 92
+        },
+        {
+          "signature": "read([replaceChar [, history [, completeFn [, default]]]])",
+          "name": "read",
+          "source_line": 214,
+          "kind": "callable",
+          "end_source_line": 257,
+          "line": 93,
+          "end_line": 136
+        },
+        {
+          "signature": "_HOST",
+          "name": "_HOST",
+          "source_line": 258,
+          "kind": "member",
+          "end_source_line": 278,
+          "line": 137,
+          "end_line": 157
+        },
+        {
+          "signature": "_CC_DEFAULT_SETTINGS",
+          "name": "_CC_DEFAULT_SETTINGS",
+          "source_line": 279,
+          "kind": "member",
+          "end_source_line": 296,
+          "line": 158,
+          "end_line": 175
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "2a3cd11dd2d42cc6494ccac0ea64cf305a1eb5ad1ba1608cbd75302c5e8d6a37"
+    },
+    {
+      "url": "https://tweaked.cc/module/colors.html",
+      "category": "module",
+      "name": "colors",
+      "title": "colors",
+      "path": "pages/module--colors.md",
+      "total_source_lines": 471,
+      "covered_source_lines": 471,
+      "body_start_source_line": 142,
+      "members": [
+        {
+          "signature": "white = 0x1",
+          "name": "white = 0x1",
+          "source_line": 200,
+          "kind": "member",
+          "end_source_line": 204,
+          "line": 63,
+          "end_line": 67
+        },
+        {
+          "signature": "orange = 0x2",
+          "name": "orange = 0x2",
+          "source_line": 205,
+          "kind": "member",
+          "end_source_line": 209,
+          "line": 68,
+          "end_line": 72
+        },
+        {
+          "signature": "magenta = 0x4",
+          "name": "magenta = 0x4",
+          "source_line": 210,
+          "kind": "member",
+          "end_source_line": 214,
+          "line": 73,
+          "end_line": 77
+        },
+        {
+          "signature": "lightBlue = 0x8",
+          "name": "lightBlue = 0x8",
+          "source_line": 215,
+          "kind": "member",
+          "end_source_line": 217,
+          "line": 78,
+          "end_line": 80
+        },
+        {
+          "signature": "yellow = 0x10",
+          "name": "yellow = 0x10",
+          "source_line": 218,
+          "kind": "member",
+          "end_source_line": 222,
+          "line": 81,
+          "end_line": 85
+        },
+        {
+          "signature": "lime = 0x20",
+          "name": "lime = 0x20",
+          "source_line": 223,
+          "kind": "member",
+          "end_source_line": 227,
+          "line": 86,
+          "end_line": 90
+        },
+        {
+          "signature": "pink = 0x40",
+          "name": "pink = 0x40",
+          "source_line": 228,
+          "kind": "member",
+          "end_source_line": 230,
+          "line": 91,
+          "end_line": 93
+        },
+        {
+          "signature": "gray = 0x80",
+          "name": "gray = 0x80",
+          "source_line": 231,
+          "kind": "member",
+          "end_source_line": 235,
+          "line": 94,
+          "end_line": 98
+        },
+        {
+          "signature": "lightGray = 0x100",
+          "name": "lightGray = 0x100",
+          "source_line": 236,
+          "kind": "member",
+          "end_source_line": 240,
+          "line": 99,
+          "end_line": 103
+        },
+        {
+          "signature": "cyan = 0x200",
+          "name": "cyan = 0x200",
+          "source_line": 241,
+          "kind": "member",
+          "end_source_line": 243,
+          "line": 104,
+          "end_line": 106
+        },
+        {
+          "signature": "purple = 0x400",
+          "name": "purple = 0x400",
+          "source_line": 244,
+          "kind": "member",
+          "end_source_line": 248,
+          "line": 107,
+          "end_line": 111
+        },
+        {
+          "signature": "blue = 0x800",
+          "name": "blue = 0x800",
+          "source_line": 249,
+          "kind": "member",
+          "end_source_line": 253,
+          "line": 112,
+          "end_line": 116
+        },
+        {
+          "signature": "brown = 0x1000",
+          "name": "brown = 0x1000",
+          "source_line": 254,
+          "kind": "member",
+          "end_source_line": 256,
+          "line": 117,
+          "end_line": 119
+        },
+        {
+          "signature": "green = 0x2000",
+          "name": "green = 0x2000",
+          "source_line": 257,
+          "kind": "member",
+          "end_source_line": 261,
+          "line": 120,
+          "end_line": 124
+        },
+        {
+          "signature": "red = 0x4000",
+          "name": "red = 0x4000",
+          "source_line": 262,
+          "kind": "member",
+          "end_source_line": 266,
+          "line": 125,
+          "end_line": 129
+        },
+        {
+          "signature": "black = 0x8000",
+          "name": "black = 0x8000",
+          "source_line": 267,
+          "kind": "member",
+          "end_source_line": 269,
+          "line": 130,
+          "end_line": 132
+        },
+        {
+          "signature": "combine(...)",
+          "name": "combine",
+          "source_line": 270,
+          "kind": "callable",
+          "end_source_line": 288,
+          "line": 133,
+          "end_line": 151
+        },
+        {
+          "signature": "subtract(colors, ...)",
+          "name": "subtract",
+          "source_line": 289,
+          "kind": "callable",
+          "end_source_line": 311,
+          "line": 152,
+          "end_line": 174
+        },
+        {
+          "signature": "test(colors, color)",
+          "name": "test",
+          "source_line": 312,
+          "kind": "callable",
+          "end_source_line": 332,
+          "line": 175,
+          "end_line": 195
+        },
+        {
+          "signature": "packRGB(r, g, b)",
+          "name": "packRGB",
+          "source_line": 333,
+          "kind": "callable",
+          "end_source_line": 354,
+          "line": 196,
+          "end_line": 217
+        },
+        {
+          "signature": "unpackRGB(rgb)",
+          "name": "unpackRGB",
+          "source_line": 355,
+          "kind": "callable",
+          "end_source_line": 380,
+          "line": 218,
+          "end_line": 243
+        },
+        {
+          "signature": "rgb8(...)",
+          "name": "rgb8",
+          "source_line": 381,
+          "kind": "callable",
+          "end_source_line": 417,
+          "line": 244,
+          "end_line": 280
+        },
+        {
+          "signature": "toBlit(color)",
+          "name": "toBlit",
+          "source_line": 418,
+          "kind": "callable",
+          "end_source_line": 443,
+          "line": 281,
+          "end_line": 306
+        },
+        {
+          "signature": "fromBlit(hex)",
+          "name": "fromBlit",
+          "source_line": 444,
+          "kind": "callable",
+          "end_source_line": 470,
+          "line": 307,
+          "end_line": 333
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "b6ff2d9d90b9340370c0fd753e9f0aaadf4b5336a29692b5f7a30a1cfa2b62f1"
+    },
+    {
+      "url": "https://tweaked.cc/module/colours.html",
+      "category": "module",
+      "name": "colours",
+      "title": "colours",
+      "path": "pages/module--colours.md",
+      "total_source_lines": 150,
+      "covered_source_lines": 150,
+      "body_start_source_line": 120,
+      "members": [
+        {
+          "signature": "grey",
+          "name": "grey",
+          "source_line": 134,
+          "kind": "member",
+          "end_source_line": 140,
+          "line": 19,
+          "end_line": 25
+        },
+        {
+          "signature": "lightGrey",
+          "name": "lightGrey",
+          "source_line": 141,
+          "kind": "member",
+          "end_source_line": 149,
+          "line": 26,
+          "end_line": 34
+        }
+      ],
+      "last_updated": "2026-08-14",
+      "sha256": "d2faf425cbe3c6b846354377d5e8aa6037d0ef105782f4264c1b93a982af789e"
+    },
+    {
+      "url": "https://tweaked.cc/module/commands.html",
+      "category": "module",
+      "name": "commands",
+      "title": "commands",
+      "path": "pages/module--commands.md",
+      "total_source_lines": 364,
+      "covered_source_lines": 364,
+      "body_start_source_line": 128,
+      "members": [
+        {
+          "signature": "exec(command)",
+          "name": "exec",
+          "source_line": 155,
+          "kind": "callable",
+          "end_source_line": 177,
+          "line": 32,
+          "end_line": 54
+        },
+        {
+          "signature": "execAsync(command)",
+          "name": "execAsync",
+          "source_line": 178,
+          "kind": "callable",
+          "end_source_line": 200,
+          "line": 55,
+          "end_line": 77
+        },
+        {
+          "signature": "list(...)",
+          "name": "list",
+          "source_line": 201,
+          "kind": "callable",
+          "end_source_line": 211,
+          "line": 78,
+          "end_line": 88
+        },
+        {
+          "signature": "getDimension()",
+          "name": "getDimension",
+          "source_line": 212,
+          "kind": "callable",
+          "end_source_line": 227,
+          "line": 89,
+          "end_line": 104
+        },
+        {
+          "signature": "getBlockPosition()",
+          "name": "getBlockPosition",
+          "source_line": 228,
+          "kind": "callable",
+          "end_source_line": 240,
+          "line": 105,
+          "end_line": 117
+        },
+        {
+          "signature": "getBlockInfos(minX, minY, minZ, maxX, maxY, maxZ [, dimension])",
+          "name": "getBlockInfos",
+          "source_line": 241,
+          "kind": "callable",
+          "end_source_line": 286,
+          "line": 118,
+          "end_line": 163
+        },
+        {
+          "signature": "getBlockInfo(x, y, z [, dimension])",
+          "name": "getBlockInfo",
+          "source_line": 287,
+          "kind": "callable",
+          "end_source_line": 310,
+          "line": 164,
+          "end_line": 187
+        },
+        {
+          "signature": "getEntities(selector)",
+          "name": "getEntities",
+          "source_line": 311,
+          "kind": "callable",
+          "end_source_line": 340,
+          "line": 188,
+          "end_line": 217
+        },
+        {
+          "signature": "native",
+          "name": "native",
+          "source_line": 341,
+          "kind": "member",
+          "end_source_line": 347,
+          "line": 218,
+          "end_line": 224
+        },
+        {
+          "signature": "async",
+          "name": "async",
+          "source_line": 348,
+          "kind": "member",
+          "end_source_line": 363,
+          "line": 225,
+          "end_line": 240
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "52e88cc274ba93d755f0bbcba81aedea8306cf1dbcbbdf19af8fb4e8e6216689"
+    },
+    {
+      "url": "https://tweaked.cc/module/disk.html",
+      "category": "module",
+      "name": "disk",
+      "title": "disk",
+      "path": "pages/module--disk.md",
+      "total_source_lines": 301,
+      "covered_source_lines": 301,
+      "body_start_source_line": 129,
+      "members": [
+        {
+          "signature": "isPresent(name)",
+          "name": "isPresent",
+          "source_line": 151,
+          "kind": "callable",
+          "end_source_line": 166,
+          "line": 27,
+          "end_line": 42
+        },
+        {
+          "signature": "getLabel(name)",
+          "name": "getLabel",
+          "source_line": 167,
+          "kind": "callable",
+          "end_source_line": 183,
+          "line": 43,
+          "end_line": 59
+        },
+        {
+          "signature": "setLabel(name, label)",
+          "name": "setLabel",
+          "source_line": 184,
+          "kind": "callable",
+          "end_source_line": 191,
+          "line": 60,
+          "end_line": 67
+        },
+        {
+          "signature": "hasData(name)",
+          "name": "hasData",
+          "source_line": 192,
+          "kind": "callable",
+          "end_source_line": 208,
+          "line": 68,
+          "end_line": 84
+        },
+        {
+          "signature": "getMountPath(name)",
+          "name": "getMountPath",
+          "source_line": 209,
+          "kind": "callable",
+          "end_source_line": 223,
+          "line": 85,
+          "end_line": 99
+        },
+        {
+          "signature": "hasAudio(name)",
+          "name": "hasAudio",
+          "source_line": 224,
+          "kind": "callable",
+          "end_source_line": 236,
+          "line": 100,
+          "end_line": 112
+        },
+        {
+          "signature": "getAudioTitle(name)",
+          "name": "getAudioTitle",
+          "source_line": 237,
+          "kind": "callable",
+          "end_source_line": 249,
+          "line": 113,
+          "end_line": 125
+        },
+        {
+          "signature": "playAudio(name)",
+          "name": "playAudio",
+          "source_line": 250,
+          "kind": "callable",
+          "end_source_line": 262,
+          "line": 126,
+          "end_line": 138
+        },
+        {
+          "signature": "stopAudio(name)",
+          "name": "stopAudio",
+          "source_line": 263,
+          "kind": "callable",
+          "end_source_line": 270,
+          "line": 139,
+          "end_line": 146
+        },
+        {
+          "signature": "eject(name)",
+          "name": "eject",
+          "source_line": 271,
+          "kind": "callable",
+          "end_source_line": 282,
+          "line": 147,
+          "end_line": 158
+        },
+        {
+          "signature": "getID(name)",
+          "name": "getID",
+          "source_line": 283,
+          "kind": "callable",
+          "end_source_line": 300,
+          "line": 159,
+          "end_line": 176
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "98554cfbc377d8ecb7d1b169eafa7b123c2a3eff93e4481196190ee2bf5685b1"
+    },
+    {
+      "url": "https://tweaked.cc/module/fs.html",
+      "category": "module",
+      "name": "fs",
+      "title": "fs",
+      "path": "pages/module--fs.md",
+      "total_source_lines": 994,
+      "covered_source_lines": 994,
+      "body_start_source_line": 144,
+      "members": [
+        {
+          "signature": "complete(...)",
+          "name": "complete",
+          "source_line": 180,
+          "kind": "callable",
+          "end_source_line": 225,
+          "line": 41,
+          "end_line": 86
+        },
+        {
+          "signature": "find(path)",
+          "name": "find",
+          "source_line": 226,
+          "kind": "callable",
+          "end_source_line": 258,
+          "line": 87,
+          "end_line": 119
+        },
+        {
+          "signature": "isDriveRoot(path)",
+          "name": "isDriveRoot",
+          "source_line": 259,
+          "kind": "callable",
+          "end_source_line": 283,
+          "line": 120,
+          "end_line": 144
+        },
+        {
+          "signature": "list(path)",
+          "name": "list",
+          "source_line": 284,
+          "kind": "callable",
+          "end_source_line": 308,
+          "line": 145,
+          "end_line": 169
+        },
+        {
+          "signature": "combine(path, ...)",
+          "name": "combine",
+          "source_line": 309,
+          "kind": "callable",
+          "end_source_line": 335,
+          "line": 170,
+          "end_line": 196
+        },
+        {
+          "signature": "getName(path)",
+          "name": "getName",
+          "source_line": 336,
+          "kind": "callable",
+          "end_source_line": 357,
+          "line": 197,
+          "end_line": 218
+        },
+        {
+          "signature": "getDir(path)",
+          "name": "getDir",
+          "source_line": 358,
+          "kind": "callable",
+          "end_source_line": 379,
+          "line": 219,
+          "end_line": 240
+        },
+        {
+          "signature": "getSize(path)",
+          "name": "getSize",
+          "source_line": 380,
+          "kind": "callable",
+          "end_source_line": 398,
+          "line": 241,
+          "end_line": 259
+        },
+        {
+          "signature": "exists(path)",
+          "name": "exists",
+          "source_line": 399,
+          "kind": "callable",
+          "end_source_line": 410,
+          "line": 260,
+          "end_line": 271
+        },
+        {
+          "signature": "isDir(path)",
+          "name": "isDir",
+          "source_line": 411,
+          "kind": "callable",
+          "end_source_line": 421,
+          "line": 272,
+          "end_line": 282
+        },
+        {
+          "signature": "isReadOnly(path)",
+          "name": "isReadOnly",
+          "source_line": 422,
+          "kind": "callable",
+          "end_source_line": 433,
+          "line": 283,
+          "end_line": 294
+        },
+        {
+          "signature": "makeDir(path)",
+          "name": "makeDir",
+          "source_line": 434,
+          "kind": "callable",
+          "end_source_line": 445,
+          "line": 295,
+          "end_line": 306
+        },
+        {
+          "signature": "move(path, dest)",
+          "name": "move",
+          "source_line": 446,
+          "kind": "callable",
+          "end_source_line": 460,
+          "line": 307,
+          "end_line": 321
+        },
+        {
+          "signature": "copy(path, dest)",
+          "name": "copy",
+          "source_line": 461,
+          "kind": "callable",
+          "end_source_line": 475,
+          "line": 322,
+          "end_line": 336
+        },
+        {
+          "signature": "delete(path)",
+          "name": "delete",
+          "source_line": 476,
+          "kind": "callable",
+          "end_source_line": 489,
+          "line": 337,
+          "end_line": 350
+        },
+        {
+          "signature": "open(path, mode)",
+          "name": "open",
+          "source_line": 490,
+          "kind": "callable",
+          "end_source_line": 553,
+          "line": 351,
+          "end_line": 414
+        },
+        {
+          "signature": "getDrive(path)",
+          "name": "getDrive",
+          "source_line": 554,
+          "kind": "callable",
+          "end_source_line": 576,
+          "line": 415,
+          "end_line": 437
+        },
+        {
+          "signature": "getFreeSpace(path)",
+          "name": "getFreeSpace",
+          "source_line": 577,
+          "kind": "callable",
+          "end_source_line": 599,
+          "line": 438,
+          "end_line": 460
+        },
+        {
+          "signature": "getCapacity(path)",
+          "name": "getCapacity",
+          "source_line": 600,
+          "kind": "callable",
+          "end_source_line": 621,
+          "line": 461,
+          "end_line": 482
+        },
+        {
+          "signature": "attributes(path)",
+          "name": "attributes",
+          "source_line": 622,
+          "kind": "callable",
+          "end_source_line": 657,
+          "line": 483,
+          "end_line": 518
+        },
+        {
+          "signature": "ReadWriteHandle.read([count])",
+          "name": "ReadWriteHandle.read",
+          "source_line": 658,
+          "kind": "callable",
+          "end_source_line": 685,
+          "line": 519,
+          "end_line": 546
+        },
+        {
+          "signature": "ReadWriteHandle.readAll()",
+          "name": "ReadWriteHandle.readAll",
+          "source_line": 686,
+          "kind": "callable",
+          "end_source_line": 701,
+          "line": 547,
+          "end_line": 562
+        },
+        {
+          "signature": "ReadWriteHandle.readLine([withTrailing])",
+          "name": "ReadWriteHandle.readLine",
+          "source_line": 702,
+          "kind": "callable",
+          "end_source_line": 720,
+          "line": 563,
+          "end_line": 581
+        },
+        {
+          "signature": "ReadWriteHandle.seek([whence [, offset]])",
+          "name": "ReadWriteHandle.seek",
+          "source_line": 721,
+          "kind": "callable",
+          "end_source_line": 750,
+          "line": 582,
+          "end_line": 611
+        },
+        {
+          "signature": "ReadWriteHandle.write(...)",
+          "name": "ReadWriteHandle.write",
+          "source_line": 751,
+          "kind": "callable",
+          "end_source_line": 769,
+          "line": 612,
+          "end_line": 630
+        },
+        {
+          "signature": "ReadWriteHandle.writeLine(text)",
+          "name": "ReadWriteHandle.writeLine",
+          "source_line": 770,
+          "kind": "callable",
+          "end_source_line": 782,
+          "line": 631,
+          "end_line": 643
+        },
+        {
+          "signature": "ReadWriteHandle.flush()",
+          "name": "ReadWriteHandle.flush",
+          "source_line": 783,
+          "kind": "callable",
+          "end_source_line": 790,
+          "line": 644,
+          "end_line": 651
+        },
+        {
+          "signature": "ReadWriteHandle.close()",
+          "name": "ReadWriteHandle.close",
+          "source_line": 791,
+          "kind": "callable",
+          "end_source_line": 805,
+          "line": 652,
+          "end_line": 666
+        },
+        {
+          "signature": "WriteHandle.write(...)",
+          "name": "WriteHandle.write",
+          "source_line": 806,
+          "kind": "callable",
+          "end_source_line": 824,
+          "line": 667,
+          "end_line": 685
+        },
+        {
+          "signature": "WriteHandle.writeLine(text)",
+          "name": "WriteHandle.writeLine",
+          "source_line": 825,
+          "kind": "callable",
+          "end_source_line": 836,
+          "line": 686,
+          "end_line": 697
+        },
+        {
+          "signature": "WriteHandle.flush()",
+          "name": "WriteHandle.flush",
+          "source_line": 837,
+          "kind": "callable",
+          "end_source_line": 844,
+          "line": 698,
+          "end_line": 705
+        },
+        {
+          "signature": "WriteHandle.seek([whence [, offset]])",
+          "name": "WriteHandle.seek",
+          "source_line": 845,
+          "kind": "callable",
+          "end_source_line": 874,
+          "line": 706,
+          "end_line": 735
+        },
+        {
+          "signature": "WriteHandle.close()",
+          "name": "WriteHandle.close",
+          "source_line": 875,
+          "kind": "callable",
+          "end_source_line": 888,
+          "line": 736,
+          "end_line": 749
+        },
+        {
+          "signature": "ReadHandle.read([count])",
+          "name": "ReadHandle.read",
+          "source_line": 889,
+          "kind": "callable",
+          "end_source_line": 916,
+          "line": 750,
+          "end_line": 777
+        },
+        {
+          "signature": "ReadHandle.readAll()",
+          "name": "ReadHandle.readAll",
+          "source_line": 917,
+          "kind": "callable",
+          "end_source_line": 932,
+          "line": 778,
+          "end_line": 793
+        },
+        {
+          "signature": "ReadHandle.readLine([withTrailing])",
+          "name": "ReadHandle.readLine",
+          "source_line": 933,
+          "kind": "callable",
+          "end_source_line": 951,
+          "line": 794,
+          "end_line": 812
+        },
+        {
+          "signature": "ReadHandle.seek([whence [, offset]])",
+          "name": "ReadHandle.seek",
+          "source_line": 952,
+          "kind": "callable",
+          "end_source_line": 981,
+          "line": 813,
+          "end_line": 842
+        },
+        {
+          "signature": "ReadHandle.close()",
+          "name": "ReadHandle.close",
+          "source_line": 982,
+          "kind": "callable",
+          "end_source_line": 993,
+          "line": 843,
+          "end_line": 854
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "ac99666d3330835d8487cdd0340737e1a66603c2efaa4595d9c27b917e78c4d2"
+    },
+    {
+      "url": "https://tweaked.cc/module/gps.html",
+      "category": "module",
+      "name": "gps",
+      "title": "gps",
+      "path": "pages/module--gps.md",
+      "total_source_lines": 161,
+      "covered_source_lines": 161,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "CHANNEL_GPS = 65534",
+          "name": "CHANNEL_GPS = 65534",
+          "source_line": 137,
+          "kind": "member",
+          "end_source_line": 141,
+          "line": 20,
+          "end_line": 24
+        },
+        {
+          "signature": "locate([timeout=2 [, debug=false]])",
+          "name": "locate",
+          "source_line": 142,
+          "kind": "callable",
+          "end_source_line": 160,
+          "line": 25,
+          "end_line": 43
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "8708f24bce99778dd1f18d065723b241f135ebbd190d7b408be9ca6c2c55f9b3"
+    },
+    {
+      "url": "https://tweaked.cc/module/help.html",
+      "category": "module",
+      "name": "help",
+      "title": "help",
+      "path": "pages/module--help.md",
+      "total_source_lines": 211,
+      "covered_source_lines": 211,
+      "body_start_source_line": 123,
+      "members": [
+        {
+          "signature": "path()",
+          "name": "path",
+          "source_line": 134,
+          "kind": "callable",
+          "end_source_line": 144,
+          "line": 16,
+          "end_line": 26
+        },
+        {
+          "signature": "setPath(newPath)",
+          "name": "setPath",
+          "source_line": 145,
+          "kind": "callable",
+          "end_source_line": 161,
+          "line": 27,
+          "end_line": 43
+        },
+        {
+          "signature": "lookup(topic)",
+          "name": "lookup",
+          "source_line": 162,
+          "kind": "callable",
+          "end_source_line": 181,
+          "line": 44,
+          "end_line": 63
+        },
+        {
+          "signature": "topics()",
+          "name": "topics",
+          "source_line": 182,
+          "kind": "callable",
+          "end_source_line": 193,
+          "line": 64,
+          "end_line": 75
+        },
+        {
+          "signature": "completeTopic(prefix)",
+          "name": "completeTopic",
+          "source_line": 194,
+          "kind": "callable",
+          "end_source_line": 210,
+          "line": 76,
+          "end_line": 92
+        }
+      ],
+      "last_updated": "2026-09-18",
+      "sha256": "232240c58a915bce74391ee9650a10f46217823872420d6d2aac81f38e0a22c2"
+    },
+    {
+      "url": "https://tweaked.cc/module/http.html",
+      "category": "module",
+      "name": "http",
+      "title": "http",
+      "path": "pages/module--http.md",
+      "total_source_lines": 481,
+      "covered_source_lines": 481,
+      "body_start_source_line": 131,
+      "members": [
+        {
+          "signature": "get(...)",
+          "name": "get",
+          "source_line": 149,
+          "kind": "callable",
+          "end_source_line": 185,
+          "line": 23,
+          "end_line": 59
+        },
+        {
+          "signature": "post(...)",
+          "name": "post",
+          "source_line": 186,
+          "kind": "callable",
+          "end_source_line": 215,
+          "line": 60,
+          "end_line": 89
+        },
+        {
+          "signature": "request(...)",
+          "name": "request",
+          "source_line": 216,
+          "kind": "callable",
+          "end_source_line": 247,
+          "line": 90,
+          "end_line": 121
+        },
+        {
+          "signature": "checkURLAsync(url)",
+          "name": "checkURLAsync",
+          "source_line": 248,
+          "kind": "callable",
+          "end_source_line": 266,
+          "line": 122,
+          "end_line": 140
+        },
+        {
+          "signature": "checkURL(url)",
+          "name": "checkURL",
+          "source_line": 267,
+          "kind": "callable",
+          "end_source_line": 296,
+          "line": 141,
+          "end_line": 170
+        },
+        {
+          "signature": "websocketAsync(...)",
+          "name": "websocketAsync",
+          "source_line": 297,
+          "kind": "callable",
+          "end_source_line": 320,
+          "line": 171,
+          "end_line": 194
+        },
+        {
+          "signature": "websocket(...)",
+          "name": "websocket",
+          "source_line": 321,
+          "kind": "callable",
+          "end_source_line": 370,
+          "line": 195,
+          "end_line": 244
+        },
+        {
+          "signature": "Response.getResponseCode()",
+          "name": "Response.getResponseCode",
+          "source_line": 371,
+          "kind": "callable",
+          "end_source_line": 382,
+          "line": 245,
+          "end_line": 256
+        },
+        {
+          "signature": "Response.getResponseHeaders()",
+          "name": "Response.getResponseHeaders",
+          "source_line": 383,
+          "kind": "callable",
+          "end_source_line": 410,
+          "line": 257,
+          "end_line": 284
+        },
+        {
+          "signature": "Websocket.receive([timeout])",
+          "name": "Websocket.receive",
+          "source_line": 411,
+          "kind": "callable",
+          "end_source_line": 436,
+          "line": 285,
+          "end_line": 310
+        },
+        {
+          "signature": "Websocket.send(message [, binary])",
+          "name": "Websocket.send",
+          "source_line": 437,
+          "kind": "callable",
+          "end_source_line": 453,
+          "line": 311,
+          "end_line": 327
+        },
+        {
+          "signature": "Websocket.close()",
+          "name": "Websocket.close",
+          "source_line": 454,
+          "kind": "callable",
+          "end_source_line": 458,
+          "line": 328,
+          "end_line": 332
+        },
+        {
+          "signature": "Websocket.getResponseHeaders()",
+          "name": "Websocket.getResponseHeaders",
+          "source_line": 459,
+          "kind": "callable",
+          "end_source_line": 480,
+          "line": 333,
+          "end_line": 354
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "dc7f8b342fb76dc3ed0fc6fbe703b30d7d0d8ab1035eea6726f1a004e96b8ed1"
+    },
+    {
+      "url": "https://tweaked.cc/module/io.html",
+      "category": "module",
+      "name": "io",
+      "title": "io",
+      "path": "pages/module--io.md",
+      "total_source_lines": 481,
+      "covered_source_lines": 481,
+      "body_start_source_line": 134,
+      "members": [
+        {
+          "signature": "stdin",
+          "name": "stdin",
+          "source_line": 149,
+          "kind": "member",
+          "end_source_line": 153,
+          "line": 20,
+          "end_line": 24
+        },
+        {
+          "signature": "stdout",
+          "name": "stdout",
+          "source_line": 154,
+          "kind": "member",
+          "end_source_line": 158,
+          "line": 25,
+          "end_line": 29
+        },
+        {
+          "signature": "stderr",
+          "name": "stderr",
+          "source_line": 159,
+          "kind": "member",
+          "end_source_line": 164,
+          "line": 30,
+          "end_line": 35
+        },
+        {
+          "signature": "close([file])",
+          "name": "close",
+          "source_line": 165,
+          "kind": "callable",
+          "end_source_line": 180,
+          "line": 36,
+          "end_line": 51
+        },
+        {
+          "signature": "flush()",
+          "name": "flush",
+          "source_line": 181,
+          "kind": "callable",
+          "end_source_line": 193,
+          "line": 52,
+          "end_line": 64
+        },
+        {
+          "signature": "input([file])",
+          "name": "input",
+          "source_line": 194,
+          "kind": "callable",
+          "end_source_line": 211,
+          "line": 65,
+          "end_line": 82
+        },
+        {
+          "signature": "lines([filename, ...])",
+          "name": "lines",
+          "source_line": 212,
+          "kind": "callable",
+          "end_source_line": 248,
+          "line": 83,
+          "end_line": 119
+        },
+        {
+          "signature": "open(filename [, mode])",
+          "name": "open",
+          "source_line": 249,
+          "kind": "callable",
+          "end_source_line": 278,
+          "line": 120,
+          "end_line": 149
+        },
+        {
+          "signature": "output([file])",
+          "name": "output",
+          "source_line": 279,
+          "kind": "callable",
+          "end_source_line": 297,
+          "line": 150,
+          "end_line": 168
+        },
+        {
+          "signature": "read(...)",
+          "name": "read",
+          "source_line": 298,
+          "kind": "callable",
+          "end_source_line": 310,
+          "line": 169,
+          "end_line": 181
+        },
+        {
+          "signature": "type(obj)",
+          "name": "type",
+          "source_line": 311,
+          "kind": "callable",
+          "end_source_line": 321,
+          "line": 182,
+          "end_line": 192
+        },
+        {
+          "signature": "write(...)",
+          "name": "write",
+          "source_line": 322,
+          "kind": "callable",
+          "end_source_line": 341,
+          "line": 193,
+          "end_line": 212
+        },
+        {
+          "signature": "Handle.close()",
+          "name": "Handle.close",
+          "source_line": 342,
+          "kind": "callable",
+          "end_source_line": 358,
+          "line": 213,
+          "end_line": 229
+        },
+        {
+          "signature": "Handle.flush()",
+          "name": "Handle.flush",
+          "source_line": 359,
+          "kind": "callable",
+          "end_source_line": 366,
+          "line": 230,
+          "end_line": 237
+        },
+        {
+          "signature": "Handle.lines(...)",
+          "name": "Handle.lines",
+          "source_line": 367,
+          "kind": "callable",
+          "end_source_line": 402,
+          "line": 238,
+          "end_line": 273
+        },
+        {
+          "signature": "Handle.read(...)",
+          "name": "Handle.read",
+          "source_line": 403,
+          "kind": "callable",
+          "end_source_line": 422,
+          "line": 274,
+          "end_line": 293
+        },
+        {
+          "signature": "Handle.seek([whence [, offset]])",
+          "name": "Handle.seek",
+          "source_line": 423,
+          "kind": "callable",
+          "end_source_line": 441,
+          "line": 294,
+          "end_line": 312
+        },
+        {
+          "signature": "Handle.setvbuf(mode [, size])",
+          "name": "Handle.setvbuf",
+          "source_line": 442,
+          "kind": "callable",
+          "end_source_line": 459,
+          "line": 313,
+          "end_line": 330
+        },
+        {
+          "signature": "Handle.write(...)",
+          "name": "Handle.write",
+          "source_line": 460,
+          "kind": "callable",
+          "end_source_line": 480,
+          "line": 331,
+          "end_line": 351
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "0a72fe52f147a8dbd23281374b46077f829f3fd98e772ea5c2f0b28d04d16312"
+    },
+    {
+      "url": "https://tweaked.cc/module/keys.html",
+      "category": "module",
+      "name": "keys",
+      "title": "keys",
+      "path": "pages/module--keys.md",
+      "total_source_lines": 147,
+      "covered_source_lines": 147,
+      "body_start_source_line": 120,
+      "members": [
+        {
+          "signature": "getName(code)",
+          "name": "getName",
+          "source_line": 130,
+          "kind": "callable",
+          "end_source_line": 146,
+          "line": 15,
+          "end_line": 31
+        }
+      ],
+      "last_updated": "2026-09-18",
+      "sha256": "1438da7d8ab631612b82933b4ee3ed5228140db2c89df39d6f917229c9e7d9ca"
+    },
+    {
+      "url": "https://tweaked.cc/module/multishell.html",
+      "category": "module",
+      "name": "multishell",
+      "title": "multishell",
+      "path": "pages/module--multishell.md",
+      "total_source_lines": 243,
+      "covered_source_lines": 243,
+      "body_start_source_line": 125,
+      "members": [
+        {
+          "signature": "getFocus()",
+          "name": "getFocus",
+          "source_line": 142,
+          "kind": "callable",
+          "end_source_line": 154,
+          "line": 22,
+          "end_line": 34
+        },
+        {
+          "signature": "setFocus(n)",
+          "name": "setFocus",
+          "source_line": 155,
+          "kind": "callable",
+          "end_source_line": 169,
+          "line": 35,
+          "end_line": 49
+        },
+        {
+          "signature": "getTitle(n)",
+          "name": "getTitle",
+          "source_line": 170,
+          "kind": "callable",
+          "end_source_line": 183,
+          "line": 50,
+          "end_line": 63
+        },
+        {
+          "signature": "setTitle(n, title)",
+          "name": "setTitle",
+          "source_line": 184,
+          "kind": "callable",
+          "end_source_line": 201,
+          "line": 64,
+          "end_line": 81
+        },
+        {
+          "signature": "getCurrent()",
+          "name": "getCurrent",
+          "source_line": 202,
+          "kind": "callable",
+          "end_source_line": 208,
+          "line": 82,
+          "end_line": 88
+        },
+        {
+          "signature": "launch(tProgramEnv, sProgramPath, ...)",
+          "name": "launch",
+          "source_line": 209,
+          "kind": "callable",
+          "end_source_line": 233,
+          "line": 89,
+          "end_line": 113
+        },
+        {
+          "signature": "getCount()",
+          "name": "getCount",
+          "source_line": 234,
+          "kind": "callable",
+          "end_source_line": 242,
+          "line": 114,
+          "end_line": 122
+        }
+      ],
+      "last_updated": "2026-09-24",
+      "sha256": "7cc0190a14b6a79abcfdb40922f177d9cf43e89f4d65790ff734841b69ef9326"
+    },
+    {
+      "url": "https://tweaked.cc/module/os.html",
+      "category": "module",
+      "name": "os",
+      "title": "os",
+      "path": "pages/module--os.md",
+      "total_source_lines": 622,
+      "covered_source_lines": 622,
+      "body_start_source_line": 142,
+      "members": [
+        {
+          "signature": "loadAPI(path)",
+          "name": "loadAPI",
+          "source_line": 169,
+          "kind": "callable",
+          "end_source_line": 189,
+          "line": 32,
+          "end_line": 52
+        },
+        {
+          "signature": "unloadAPI(name)",
+          "name": "unloadAPI",
+          "source_line": 190,
+          "kind": "callable",
+          "end_source_line": 206,
+          "line": 53,
+          "end_line": 69
+        },
+        {
+          "signature": "pullEvent([filter])",
+          "name": "pullEvent",
+          "source_line": 207,
+          "kind": "callable",
+          "end_source_line": 249,
+          "line": 70,
+          "end_line": 112
+        },
+        {
+          "signature": "pullEventRaw([filter])",
+          "name": "pullEventRaw",
+          "source_line": 250,
+          "kind": "callable",
+          "end_source_line": 277,
+          "line": 113,
+          "end_line": 140
+        },
+        {
+          "signature": "sleep([time=0])",
+          "name": "sleep",
+          "source_line": 278,
+          "kind": "callable",
+          "end_source_line": 284,
+          "line": 141,
+          "end_line": 147
+        },
+        {
+          "signature": "version()",
+          "name": "version",
+          "source_line": 285,
+          "kind": "callable",
+          "end_source_line": 302,
+          "line": 148,
+          "end_line": 165
+        },
+        {
+          "signature": "run(env, path, ...)",
+          "name": "run",
+          "source_line": 303,
+          "kind": "callable",
+          "end_source_line": 328,
+          "line": 166,
+          "end_line": 191
+        },
+        {
+          "signature": "queueEvent(name, ...)",
+          "name": "queueEvent",
+          "source_line": 329,
+          "kind": "callable",
+          "end_source_line": 340,
+          "line": 192,
+          "end_line": 203
+        },
+        {
+          "signature": "startTimer(time)",
+          "name": "startTimer",
+          "source_line": 341,
+          "kind": "callable",
+          "end_source_line": 361,
+          "line": 204,
+          "end_line": 224
+        },
+        {
+          "signature": "cancelTimer(token)",
+          "name": "cancelTimer",
+          "source_line": 362,
+          "kind": "callable",
+          "end_source_line": 376,
+          "line": 225,
+          "end_line": 239
+        },
+        {
+          "signature": "setAlarm(time)",
+          "name": "setAlarm",
+          "source_line": 377,
+          "kind": "callable",
+          "end_source_line": 399,
+          "line": 240,
+          "end_line": 262
+        },
+        {
+          "signature": "cancelAlarm(token)",
+          "name": "cancelAlarm",
+          "source_line": 400,
+          "kind": "callable",
+          "end_source_line": 414,
+          "line": 263,
+          "end_line": 277
+        },
+        {
+          "signature": "shutdown()",
+          "name": "shutdown",
+          "source_line": 415,
+          "kind": "callable",
+          "end_source_line": 419,
+          "line": 278,
+          "end_line": 282
+        },
+        {
+          "signature": "reboot()",
+          "name": "reboot",
+          "source_line": 420,
+          "kind": "callable",
+          "end_source_line": 424,
+          "line": 283,
+          "end_line": 287
+        },
+        {
+          "signature": "getComputerID()",
+          "name": "getComputerID",
+          "source_line": 425,
+          "kind": "callable",
+          "end_source_line": 432,
+          "line": 288,
+          "end_line": 295
+        },
+        {
+          "signature": "computerID()",
+          "name": "computerID",
+          "source_line": 433,
+          "kind": "callable",
+          "end_source_line": 439,
+          "line": 296,
+          "end_line": 302
+        },
+        {
+          "signature": "getComputerLabel()",
+          "name": "getComputerLabel",
+          "source_line": 440,
+          "kind": "callable",
+          "end_source_line": 451,
+          "line": 303,
+          "end_line": 314
+        },
+        {
+          "signature": "computerLabel()",
+          "name": "computerLabel",
+          "source_line": 452,
+          "kind": "callable",
+          "end_source_line": 462,
+          "line": 315,
+          "end_line": 325
+        },
+        {
+          "signature": "setComputerLabel([label])",
+          "name": "setComputerLabel",
+          "source_line": 463,
+          "kind": "callable",
+          "end_source_line": 474,
+          "line": 326,
+          "end_line": 337
+        },
+        {
+          "signature": "clock()",
+          "name": "clock",
+          "source_line": 475,
+          "kind": "callable",
+          "end_source_line": 485,
+          "line": 338,
+          "end_line": 348
+        },
+        {
+          "signature": "time([locale])",
+          "name": "time",
+          "source_line": 486,
+          "kind": "callable",
+          "end_source_line": 521,
+          "line": 349,
+          "end_line": 384
+        },
+        {
+          "signature": "day([locale])",
+          "name": "day",
+          "source_line": 522,
+          "kind": "callable",
+          "end_source_line": 543,
+          "line": 385,
+          "end_line": 406
+        },
+        {
+          "signature": "epoch([locale])",
+          "name": "epoch",
+          "source_line": 544,
+          "kind": "callable",
+          "end_source_line": 575,
+          "line": 407,
+          "end_line": 438
+        },
+        {
+          "signature": "date([format [, time]])",
+          "name": "date",
+          "source_line": 576,
+          "kind": "callable",
+          "end_source_line": 621,
+          "line": 439,
+          "end_line": 484
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "ce3365f0762d657767e161bde116c0fd685a42779405f1285845a0ad7ab773e2"
+    },
+    {
+      "url": "https://tweaked.cc/module/paintutils.html",
+      "category": "module",
+      "name": "paintutils",
+      "title": "paintutils",
+      "path": "pages/module--paintutils.md",
+      "total_source_lines": 277,
+      "covered_source_lines": 277,
+      "body_start_source_line": 126,
+      "members": [
+        {
+          "signature": "parseImage(image)",
+          "name": "parseImage",
+          "source_line": 138,
+          "kind": "callable",
+          "end_source_line": 163,
+          "line": 17,
+          "end_line": 42
+        },
+        {
+          "signature": "loadImage(path)",
+          "name": "loadImage",
+          "source_line": 164,
+          "kind": "callable",
+          "end_source_line": 184,
+          "line": 43,
+          "end_line": 63
+        },
+        {
+          "signature": "drawPixel(xPos, yPos [, colour])",
+          "name": "drawPixel",
+          "source_line": 185,
+          "kind": "callable",
+          "end_source_line": 197,
+          "line": 64,
+          "end_line": 76
+        },
+        {
+          "signature": "drawLine(startX, startY, endX, endY [, colour])",
+          "name": "drawLine",
+          "source_line": 198,
+          "kind": "callable",
+          "end_source_line": 216,
+          "line": 77,
+          "end_line": 95
+        },
+        {
+          "signature": "drawBox(startX, startY, endX, endY [, colour])",
+          "name": "drawBox",
+          "source_line": 217,
+          "kind": "callable",
+          "end_source_line": 235,
+          "line": 96,
+          "end_line": 114
+        },
+        {
+          "signature": "drawFilledBox(startX, startY, endX, endY [, colour])",
+          "name": "drawFilledBox",
+          "source_line": 236,
+          "kind": "callable",
+          "end_source_line": 254,
+          "line": 115,
+          "end_line": 133
+        },
+        {
+          "signature": "drawImage(image, xPos, yPos)",
+          "name": "drawImage",
+          "source_line": 255,
+          "kind": "callable",
+          "end_source_line": 276,
+          "line": 134,
+          "end_line": 155
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "f8f2df203cd3143cfc36e5af3d9f0ae152261fdde4baa31375f55f24ce435981"
+    },
+    {
+      "url": "https://tweaked.cc/module/parallel.html",
+      "category": "module",
+      "name": "parallel",
+      "title": "parallel",
+      "path": "pages/module--parallel.md",
+      "total_source_lines": 233,
+      "covered_source_lines": 233,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "waitForAny(...)",
+          "name": "waitForAny",
+          "source_line": 146,
+          "kind": "callable",
+          "end_source_line": 171,
+          "line": 30,
+          "end_line": 55
+        },
+        {
+          "signature": "waitForAll(...)",
+          "name": "waitForAll",
+          "source_line": 172,
+          "kind": "callable",
+          "end_source_line": 232,
+          "line": 56,
+          "end_line": 116
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "70dcd7ce2bcdf4eb1f272121bfa5127363524726427bf25d1aa4a66c88aa1673"
+    },
+    {
+      "url": "https://tweaked.cc/module/peripheral.html",
+      "category": "module",
+      "name": "peripheral",
+      "title": "peripheral",
+      "path": "pages/module--peripheral.md",
+      "total_source_lines": 352,
+      "covered_source_lines": 352,
+      "body_start_source_line": 128,
+      "members": [
+        {
+          "signature": "getNames()",
+          "name": "getNames",
+          "source_line": 185,
+          "kind": "callable",
+          "end_source_line": 197,
+          "line": 62,
+          "end_line": 74
+        },
+        {
+          "signature": "isPresent(name)",
+          "name": "isPresent",
+          "source_line": 198,
+          "kind": "callable",
+          "end_source_line": 215,
+          "line": 75,
+          "end_line": 92
+        },
+        {
+          "signature": "getType(peripheral)",
+          "name": "getType",
+          "source_line": 216,
+          "kind": "callable",
+          "end_source_line": 237,
+          "line": 93,
+          "end_line": 114
+        },
+        {
+          "signature": "hasType(peripheral, peripheral_type)",
+          "name": "hasType",
+          "source_line": 238,
+          "kind": "callable",
+          "end_source_line": 253,
+          "line": 115,
+          "end_line": 130
+        },
+        {
+          "signature": "getMethods(name)",
+          "name": "getMethods",
+          "source_line": 254,
+          "kind": "callable",
+          "end_source_line": 264,
+          "line": 131,
+          "end_line": 141
+        },
+        {
+          "signature": "getName(peripheral)",
+          "name": "getName",
+          "source_line": 265,
+          "kind": "callable",
+          "end_source_line": 279,
+          "line": 142,
+          "end_line": 156
+        },
+        {
+          "signature": "call(name, method, ...)",
+          "name": "call",
+          "source_line": 280,
+          "kind": "callable",
+          "end_source_line": 299,
+          "line": 157,
+          "end_line": 176
+        },
+        {
+          "signature": "wrap(name)",
+          "name": "wrap",
+          "source_line": 300,
+          "kind": "callable",
+          "end_source_line": 318,
+          "line": 177,
+          "end_line": 195
+        },
+        {
+          "signature": "find(ty [, filter])",
+          "name": "find",
+          "source_line": 319,
+          "kind": "callable",
+          "end_source_line": 351,
+          "line": 196,
+          "end_line": 228
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "cc4b917a1e9d8c3d2cdfd1ccab081a53a8e72ee44581767452737b6265cf1d45"
+    },
+    {
+      "url": "https://tweaked.cc/module/pocket.html",
+      "category": "module",
+      "name": "pocket",
+      "title": "pocket",
+      "path": "pages/module--pocket.md",
+      "total_source_lines": 200,
+      "covered_source_lines": 200,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "equipBack()",
+          "name": "equipBack",
+          "source_line": 180,
+          "kind": "callable",
+          "end_source_line": 189,
+          "line": 64,
+          "end_line": 73
+        },
+        {
+          "signature": "unequipBack()",
+          "name": "unequipBack",
+          "source_line": 190,
+          "kind": "callable",
+          "end_source_line": 199,
+          "line": 74,
+          "end_line": 83
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "8e068c0b0a5b2b1645790d2ef51c801caf7669459fff198d091e3ee536d04419"
+    },
+    {
+      "url": "https://tweaked.cc/module/rednet.html",
+      "category": "module",
+      "name": "rednet",
+      "title": "rednet",
+      "path": "pages/module--rednet.md",
+      "total_source_lines": 418,
+      "covered_source_lines": 418,
+      "body_start_source_line": 132,
+      "members": [
+        {
+          "signature": "CHANNEL_BROADCAST = 65535",
+          "name": "CHANNEL_BROADCAST = 65535",
+          "source_line": 167,
+          "kind": "member",
+          "end_source_line": 171,
+          "line": 40,
+          "end_line": 44
+        },
+        {
+          "signature": "CHANNEL_REPEAT = 65533",
+          "name": "CHANNEL_REPEAT = 65533",
+          "source_line": 172,
+          "kind": "member",
+          "end_source_line": 176,
+          "line": 45,
+          "end_line": 49
+        },
+        {
+          "signature": "MAX_ID_CHANNELS = 65500",
+          "name": "MAX_ID_CHANNELS = 65500",
+          "source_line": 177,
+          "kind": "member",
+          "end_source_line": 181,
+          "line": 50,
+          "end_line": 54
+        },
+        {
+          "signature": "open(modem)",
+          "name": "open",
+          "source_line": 182,
+          "kind": "callable",
+          "end_source_line": 206,
+          "line": 55,
+          "end_line": 79
+        },
+        {
+          "signature": "close([modem])",
+          "name": "close",
+          "source_line": 207,
+          "kind": "callable",
+          "end_source_line": 221,
+          "line": 80,
+          "end_line": 94
+        },
+        {
+          "signature": "isOpen([modem])",
+          "name": "isOpen",
+          "source_line": 222,
+          "kind": "callable",
+          "end_source_line": 240,
+          "line": 95,
+          "end_line": 113
+        },
+        {
+          "signature": "send(recipient, message [, protocol])",
+          "name": "send",
+          "source_line": 241,
+          "kind": "callable",
+          "end_source_line": 268,
+          "line": 114,
+          "end_line": 141
+        },
+        {
+          "signature": "broadcast(message [, protocol])",
+          "name": "broadcast",
+          "source_line": 269,
+          "kind": "callable",
+          "end_source_line": 289,
+          "line": 142,
+          "end_line": 162
+        },
+        {
+          "signature": "receive([protocol_filter [, timeout]])",
+          "name": "receive",
+          "source_line": 290,
+          "kind": "callable",
+          "end_source_line": 337,
+          "line": 163,
+          "end_line": 210
+        },
+        {
+          "signature": "host(protocol, hostname)",
+          "name": "host",
+          "source_line": 338,
+          "kind": "callable",
+          "end_source_line": 358,
+          "line": 211,
+          "end_line": 231
+        },
+        {
+          "signature": "unhost(protocol)",
+          "name": "unhost",
+          "source_line": 359,
+          "kind": "callable",
+          "end_source_line": 369,
+          "line": 232,
+          "end_line": 242
+        },
+        {
+          "signature": "lookup(protocol [, hostname [, timeout=2]])",
+          "name": "lookup",
+          "source_line": 370,
+          "kind": "callable",
+          "end_source_line": 409,
+          "line": 243,
+          "end_line": 282
+        },
+        {
+          "signature": "run()",
+          "name": "run",
+          "source_line": 410,
+          "kind": "callable",
+          "end_source_line": 417,
+          "line": 283,
+          "end_line": 290
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "48bcd0b11a98a874cbe1395cfe1bac5054e9f666dc2eb7995bcaf10d169fcb88"
+    },
+    {
+      "url": "https://tweaked.cc/module/redstone.html",
+      "category": "module",
+      "name": "redstone",
+      "title": "redstone",
+      "path": "pages/module--redstone.md",
+      "total_source_lines": 384,
+      "covered_source_lines": 384,
+      "body_start_source_line": 132,
+      "members": [
+        {
+          "signature": "getSides()",
+          "name": "getSides",
+          "source_line": 173,
+          "kind": "callable",
+          "end_source_line": 183,
+          "line": 46,
+          "end_line": 56
+        },
+        {
+          "signature": "setOutput(side, on)",
+          "name": "setOutput",
+          "source_line": 184,
+          "kind": "callable",
+          "end_source_line": 192,
+          "line": 57,
+          "end_line": 65
+        },
+        {
+          "signature": "getOutput(side)",
+          "name": "getOutput",
+          "source_line": 193,
+          "kind": "callable",
+          "end_source_line": 207,
+          "line": 66,
+          "end_line": 80
+        },
+        {
+          "signature": "getInput(side)",
+          "name": "getInput",
+          "source_line": 208,
+          "kind": "callable",
+          "end_source_line": 218,
+          "line": 81,
+          "end_line": 91
+        },
+        {
+          "signature": "setAnalogOutput(side, value)",
+          "name": "setAnalogOutput",
+          "source_line": 219,
+          "kind": "callable",
+          "end_source_line": 234,
+          "line": 92,
+          "end_line": 107
+        },
+        {
+          "signature": "setAnalogueOutput(side, value)",
+          "name": "setAnalogueOutput",
+          "source_line": 235,
+          "kind": "callable",
+          "end_source_line": 251,
+          "line": 108,
+          "end_line": 124
+        },
+        {
+          "signature": "getAnalogOutput(side)",
+          "name": "getAnalogOutput",
+          "source_line": 252,
+          "kind": "callable",
+          "end_source_line": 270,
+          "line": 125,
+          "end_line": 143
+        },
+        {
+          "signature": "getAnalogueOutput(side)",
+          "name": "getAnalogueOutput",
+          "source_line": 271,
+          "kind": "callable",
+          "end_source_line": 289,
+          "line": 144,
+          "end_line": 162
+        },
+        {
+          "signature": "getAnalogInput(side)",
+          "name": "getAnalogInput",
+          "source_line": 290,
+          "kind": "callable",
+          "end_source_line": 305,
+          "line": 163,
+          "end_line": 178
+        },
+        {
+          "signature": "getAnalogueInput(side)",
+          "name": "getAnalogueInput",
+          "source_line": 306,
+          "kind": "callable",
+          "end_source_line": 320,
+          "line": 179,
+          "end_line": 193
+        },
+        {
+          "signature": "setBundledOutput(side, output)",
+          "name": "setBundledOutput",
+          "source_line": 321,
+          "kind": "callable",
+          "end_source_line": 333,
+          "line": 194,
+          "end_line": 206
+        },
+        {
+          "signature": "getBundledOutput(side)",
+          "name": "getBundledOutput",
+          "source_line": 334,
+          "kind": "callable",
+          "end_source_line": 345,
+          "line": 207,
+          "end_line": 218
+        },
+        {
+          "signature": "getBundledInput(side)",
+          "name": "getBundledInput",
+          "source_line": 346,
+          "kind": "callable",
+          "end_source_line": 360,
+          "line": 219,
+          "end_line": 233
+        },
+        {
+          "signature": "testBundledInput(side, mask)",
+          "name": "testBundledInput",
+          "source_line": 361,
+          "kind": "callable",
+          "end_source_line": 383,
+          "line": 234,
+          "end_line": 256
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "4e29516c5ed08a6f33ae0ef3d6914e59e75259d182c85451fc2815038f5a1af0"
+    },
+    {
+      "url": "https://tweaked.cc/module/settings.html",
+      "category": "module",
+      "name": "settings",
+      "title": "settings",
+      "path": "pages/module--settings.md",
+      "total_source_lines": 321,
+      "covered_source_lines": 321,
+      "body_start_source_line": 129,
+      "members": [
+        {
+          "signature": "define(name [, options])",
+          "name": "define",
+          "source_line": 168,
+          "kind": "callable",
+          "end_source_line": 185,
+          "line": 44,
+          "end_line": 61
+        },
+        {
+          "signature": "undefine(name)",
+          "name": "undefine",
+          "source_line": 186,
+          "kind": "callable",
+          "end_source_line": 199,
+          "line": 62,
+          "end_line": 75
+        },
+        {
+          "signature": "set(name, value)",
+          "name": "set",
+          "source_line": 200,
+          "kind": "callable",
+          "end_source_line": 219,
+          "line": 76,
+          "end_line": 95
+        },
+        {
+          "signature": "get(name [, default])",
+          "name": "get",
+          "source_line": 220,
+          "kind": "callable",
+          "end_source_line": 234,
+          "line": 96,
+          "end_line": 110
+        },
+        {
+          "signature": "getDetails(name)",
+          "name": "getDetails",
+          "source_line": 235,
+          "kind": "callable",
+          "end_source_line": 248,
+          "line": 111,
+          "end_line": 124
+        },
+        {
+          "signature": "unset(name)",
+          "name": "unset",
+          "source_line": 249,
+          "kind": "callable",
+          "end_source_line": 262,
+          "line": 125,
+          "end_line": 138
+        },
+        {
+          "signature": "clear()",
+          "name": "clear",
+          "source_line": 263,
+          "kind": "callable",
+          "end_source_line": 270,
+          "line": 139,
+          "end_line": 146
+        },
+        {
+          "signature": "getNames()",
+          "name": "getNames",
+          "source_line": 271,
+          "kind": "callable",
+          "end_source_line": 277,
+          "line": 147,
+          "end_line": 153
+        },
+        {
+          "signature": "load([path=\".settings\"])",
+          "name": "load",
+          "source_line": 278,
+          "kind": "callable",
+          "end_source_line": 298,
+          "line": 154,
+          "end_line": 174
+        },
+        {
+          "signature": "save([path=\".settings\"])",
+          "name": "save",
+          "source_line": 299,
+          "kind": "callable",
+          "end_source_line": 320,
+          "line": 175,
+          "end_line": 196
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "f96733d3851026ec4152b098b5e4c5a3e0500f6bc375a73b12a6a858937fdaab"
+    },
+    {
+      "url": "https://tweaked.cc/module/shell.html",
+      "category": "module",
+      "name": "shell",
+      "title": "shell",
+      "path": "pages/module--shell.md",
+      "total_source_lines": 517,
+      "covered_source_lines": 517,
+      "body_start_source_line": 138,
+      "members": [
+        {
+          "signature": "execute(command, ...)",
+          "name": "execute",
+          "source_line": 176,
+          "kind": "callable",
+          "end_source_line": 198,
+          "line": 43,
+          "end_line": 65
+        },
+        {
+          "signature": "run(...)",
+          "name": "run",
+          "source_line": 199,
+          "kind": "callable",
+          "end_source_line": 225,
+          "line": 66,
+          "end_line": 92
+        },
+        {
+          "signature": "exit()",
+          "name": "exit",
+          "source_line": 226,
+          "kind": "callable",
+          "end_source_line": 232,
+          "line": 93,
+          "end_line": 99
+        },
+        {
+          "signature": "dir()",
+          "name": "dir",
+          "source_line": 233,
+          "kind": "callable",
+          "end_source_line": 241,
+          "line": 100,
+          "end_line": 108
+        },
+        {
+          "signature": "setDir(dir)",
+          "name": "setDir",
+          "source_line": 242,
+          "kind": "callable",
+          "end_source_line": 259,
+          "line": 109,
+          "end_line": 126
+        },
+        {
+          "signature": "path()",
+          "name": "path",
+          "source_line": 260,
+          "kind": "callable",
+          "end_source_line": 272,
+          "line": 127,
+          "end_line": 139
+        },
+        {
+          "signature": "setPath(path)",
+          "name": "setPath",
+          "source_line": 273,
+          "kind": "callable",
+          "end_source_line": 285,
+          "line": 140,
+          "end_line": 152
+        },
+        {
+          "signature": "resolve(path)",
+          "name": "resolve",
+          "source_line": 286,
+          "kind": "callable",
+          "end_source_line": 303,
+          "line": 153,
+          "end_line": 170
+        },
+        {
+          "signature": "resolveProgram(command)",
+          "name": "resolveProgram",
+          "source_line": 304,
+          "kind": "callable",
+          "end_source_line": 326,
+          "line": 171,
+          "end_line": 193
+        },
+        {
+          "signature": "programs([include_hidden])",
+          "name": "programs",
+          "source_line": 327,
+          "kind": "callable",
+          "end_source_line": 344,
+          "line": 194,
+          "end_line": 211
+        },
+        {
+          "signature": "complete(sLine)",
+          "name": "complete",
+          "source_line": 345,
+          "kind": "callable",
+          "end_source_line": 370,
+          "line": 212,
+          "end_line": 237
+        },
+        {
+          "signature": "completeProgram(program)",
+          "name": "completeProgram",
+          "source_line": 371,
+          "kind": "callable",
+          "end_source_line": 384,
+          "line": 238,
+          "end_line": 251
+        },
+        {
+          "signature": "setCompletionFunction(program, complete)",
+          "name": "setCompletionFunction",
+          "source_line": 385,
+          "kind": "callable",
+          "end_source_line": 410,
+          "line": 252,
+          "end_line": 277
+        },
+        {
+          "signature": "getCompletionInfo()",
+          "name": "getCompletionInfo",
+          "source_line": 411,
+          "kind": "callable",
+          "end_source_line": 419,
+          "line": 278,
+          "end_line": 286
+        },
+        {
+          "signature": "getRunningProgram()",
+          "name": "getRunningProgram",
+          "source_line": 420,
+          "kind": "callable",
+          "end_source_line": 431,
+          "line": 287,
+          "end_line": 298
+        },
+        {
+          "signature": "setAlias(command, program)",
+          "name": "setAlias",
+          "source_line": 432,
+          "kind": "callable",
+          "end_source_line": 449,
+          "line": 299,
+          "end_line": 316
+        },
+        {
+          "signature": "clearAlias(command)",
+          "name": "clearAlias",
+          "source_line": 450,
+          "kind": "callable",
+          "end_source_line": 456,
+          "line": 317,
+          "end_line": 323
+        },
+        {
+          "signature": "aliases()",
+          "name": "aliases",
+          "source_line": 457,
+          "kind": "callable",
+          "end_source_line": 469,
+          "line": 324,
+          "end_line": 336
+        },
+        {
+          "signature": "openTab(...)",
+          "name": "openTab",
+          "source_line": 470,
+          "kind": "callable",
+          "end_source_line": 500,
+          "line": 337,
+          "end_line": 367
+        },
+        {
+          "signature": "switchTab(id)",
+          "name": "switchTab",
+          "source_line": 501,
+          "kind": "callable",
+          "end_source_line": 516,
+          "line": 368,
+          "end_line": 383
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "3ab7f58115f40093410712bcb8285a3e2392855c7a6542910a7476692da42e95"
+    },
+    {
+      "url": "https://tweaked.cc/module/term.html",
+      "category": "module",
+      "name": "term",
+      "title": "term",
+      "path": "pages/module--term.md",
+      "total_source_lines": 1039,
+      "covered_source_lines": 1039,
+      "body_start_source_line": 149,
+      "members": [
+        {
+          "signature": "nativePaletteColour(colour)",
+          "name": "nativePaletteColour",
+          "source_line": 209,
+          "kind": "callable",
+          "end_source_line": 232,
+          "line": 65,
+          "end_line": 88
+        },
+        {
+          "signature": "nativePaletteColor(colour)",
+          "name": "nativePaletteColor",
+          "source_line": 233,
+          "kind": "callable",
+          "end_source_line": 257,
+          "line": 89,
+          "end_line": 113
+        },
+        {
+          "signature": "write(text)",
+          "name": "write",
+          "source_line": 258,
+          "kind": "callable",
+          "end_source_line": 266,
+          "line": 114,
+          "end_line": 122
+        },
+        {
+          "signature": "scroll(y)",
+          "name": "scroll",
+          "source_line": 267,
+          "kind": "callable",
+          "end_source_line": 276,
+          "line": 123,
+          "end_line": 132
+        },
+        {
+          "signature": "getCursorPos()",
+          "name": "getCursorPos",
+          "source_line": 277,
+          "kind": "callable",
+          "end_source_line": 284,
+          "line": 133,
+          "end_line": 140
+        },
+        {
+          "signature": "setCursorPos(x, y)",
+          "name": "setCursorPos",
+          "source_line": 285,
+          "kind": "callable",
+          "end_source_line": 293,
+          "line": 141,
+          "end_line": 149
+        },
+        {
+          "signature": "getCursorBlink()",
+          "name": "getCursorBlink",
+          "source_line": 294,
+          "kind": "callable",
+          "end_source_line": 304,
+          "line": 150,
+          "end_line": 160
+        },
+        {
+          "signature": "setCursorBlink(blink)",
+          "name": "setCursorBlink",
+          "source_line": 305,
+          "kind": "callable",
+          "end_source_line": 312,
+          "line": 161,
+          "end_line": 168
+        },
+        {
+          "signature": "getSize()",
+          "name": "getSize",
+          "source_line": 313,
+          "kind": "callable",
+          "end_source_line": 320,
+          "line": 169,
+          "end_line": 176
+        },
+        {
+          "signature": "clear()",
+          "name": "clear",
+          "source_line": 321,
+          "kind": "callable",
+          "end_source_line": 325,
+          "line": 177,
+          "end_line": 181
+        },
+        {
+          "signature": "clearLine()",
+          "name": "clearLine",
+          "source_line": 326,
+          "kind": "callable",
+          "end_source_line": 330,
+          "line": 182,
+          "end_line": 186
+        },
+        {
+          "signature": "getTextColour()",
+          "name": "getTextColour",
+          "source_line": 331,
+          "kind": "callable",
+          "end_source_line": 345,
+          "line": 187,
+          "end_line": 201
+        },
+        {
+          "signature": "getTextColor()",
+          "name": "getTextColor",
+          "source_line": 346,
+          "kind": "callable",
+          "end_source_line": 361,
+          "line": 202,
+          "end_line": 217
+        },
+        {
+          "signature": "setTextColour(colour)",
+          "name": "setTextColour",
+          "source_line": 362,
+          "kind": "callable",
+          "end_source_line": 377,
+          "line": 218,
+          "end_line": 233
+        },
+        {
+          "signature": "setTextColor(colour)",
+          "name": "setTextColor",
+          "source_line": 378,
+          "kind": "callable",
+          "end_source_line": 393,
+          "line": 234,
+          "end_line": 249
+        },
+        {
+          "signature": "getBackgroundColour()",
+          "name": "getBackgroundColour",
+          "source_line": 394,
+          "kind": "callable",
+          "end_source_line": 408,
+          "line": 250,
+          "end_line": 264
+        },
+        {
+          "signature": "getBackgroundColor()",
+          "name": "getBackgroundColor",
+          "source_line": 409,
+          "kind": "callable",
+          "end_source_line": 423,
+          "line": 265,
+          "end_line": 279
+        },
+        {
+          "signature": "setBackgroundColour(colour)",
+          "name": "setBackgroundColour",
+          "source_line": 424,
+          "kind": "callable",
+          "end_source_line": 439,
+          "line": 280,
+          "end_line": 295
+        },
+        {
+          "signature": "setBackgroundColor(colour)",
+          "name": "setBackgroundColor",
+          "source_line": 440,
+          "kind": "callable",
+          "end_source_line": 455,
+          "line": 296,
+          "end_line": 311
+        },
+        {
+          "signature": "isColour()",
+          "name": "isColour",
+          "source_line": 456,
+          "kind": "callable",
+          "end_source_line": 468,
+          "line": 312,
+          "end_line": 324
+        },
+        {
+          "signature": "isColor()",
+          "name": "isColor",
+          "source_line": 469,
+          "kind": "callable",
+          "end_source_line": 481,
+          "line": 325,
+          "end_line": 337
+        },
+        {
+          "signature": "blit(text, textColour, backgroundColour)",
+          "name": "blit",
+          "source_line": 482,
+          "kind": "callable",
+          "end_source_line": 510,
+          "line": 338,
+          "end_line": 366
+        },
+        {
+          "signature": "setPaletteColour(...)",
+          "name": "setPaletteColour",
+          "source_line": 511,
+          "kind": "callable",
+          "end_source_line": 546,
+          "line": 367,
+          "end_line": 402
+        },
+        {
+          "signature": "setPaletteColor(...)",
+          "name": "setPaletteColor",
+          "source_line": 547,
+          "kind": "callable",
+          "end_source_line": 584,
+          "line": 403,
+          "end_line": 440
+        },
+        {
+          "signature": "getPaletteColour(colour)",
+          "name": "getPaletteColour",
+          "source_line": 585,
+          "kind": "callable",
+          "end_source_line": 601,
+          "line": 441,
+          "end_line": 457
+        },
+        {
+          "signature": "getPaletteColor(colour)",
+          "name": "getPaletteColor",
+          "source_line": 602,
+          "kind": "callable",
+          "end_source_line": 617,
+          "line": 458,
+          "end_line": 473
+        },
+        {
+          "signature": "redirect(target)",
+          "name": "redirect",
+          "source_line": 618,
+          "kind": "callable",
+          "end_source_line": 641,
+          "line": 474,
+          "end_line": 497
+        },
+        {
+          "signature": "current()",
+          "name": "current",
+          "source_line": 642,
+          "kind": "callable",
+          "end_source_line": 657,
+          "line": 498,
+          "end_line": 513
+        },
+        {
+          "signature": "native()",
+          "name": "native",
+          "source_line": 658,
+          "kind": "callable",
+          "end_source_line": 677,
+          "line": 514,
+          "end_line": 533
+        },
+        {
+          "signature": "Redirect.write(text)",
+          "name": "Redirect.write",
+          "source_line": 678,
+          "kind": "callable",
+          "end_source_line": 686,
+          "line": 534,
+          "end_line": 542
+        },
+        {
+          "signature": "Redirect.scroll(y)",
+          "name": "Redirect.scroll",
+          "source_line": 687,
+          "kind": "callable",
+          "end_source_line": 696,
+          "line": 543,
+          "end_line": 552
+        },
+        {
+          "signature": "Redirect.getCursorPos()",
+          "name": "Redirect.getCursorPos",
+          "source_line": 697,
+          "kind": "callable",
+          "end_source_line": 704,
+          "line": 553,
+          "end_line": 560
+        },
+        {
+          "signature": "Redirect.setCursorPos(x, y)",
+          "name": "Redirect.setCursorPos",
+          "source_line": 705,
+          "kind": "callable",
+          "end_source_line": 713,
+          "line": 561,
+          "end_line": 569
+        },
+        {
+          "signature": "Redirect.getCursorBlink()",
+          "name": "Redirect.getCursorBlink",
+          "source_line": 714,
+          "kind": "callable",
+          "end_source_line": 724,
+          "line": 570,
+          "end_line": 580
+        },
+        {
+          "signature": "Redirect.setCursorBlink(blink)",
+          "name": "Redirect.setCursorBlink",
+          "source_line": 725,
+          "kind": "callable",
+          "end_source_line": 732,
+          "line": 581,
+          "end_line": 588
+        },
+        {
+          "signature": "Redirect.getSize()",
+          "name": "Redirect.getSize",
+          "source_line": 733,
+          "kind": "callable",
+          "end_source_line": 740,
+          "line": 589,
+          "end_line": 596
+        },
+        {
+          "signature": "Redirect.clear()",
+          "name": "Redirect.clear",
+          "source_line": 741,
+          "kind": "callable",
+          "end_source_line": 745,
+          "line": 597,
+          "end_line": 601
+        },
+        {
+          "signature": "Redirect.clearLine()",
+          "name": "Redirect.clearLine",
+          "source_line": 746,
+          "kind": "callable",
+          "end_source_line": 750,
+          "line": 602,
+          "end_line": 606
+        },
+        {
+          "signature": "Redirect.getTextColour()",
+          "name": "Redirect.getTextColour",
+          "source_line": 751,
+          "kind": "callable",
+          "end_source_line": 765,
+          "line": 607,
+          "end_line": 621
+        },
+        {
+          "signature": "Redirect.getTextColor()",
+          "name": "Redirect.getTextColor",
+          "source_line": 766,
+          "kind": "callable",
+          "end_source_line": 780,
+          "line": 622,
+          "end_line": 636
+        },
+        {
+          "signature": "Redirect.setTextColour(colour)",
+          "name": "Redirect.setTextColour",
+          "source_line": 781,
+          "kind": "callable",
+          "end_source_line": 796,
+          "line": 637,
+          "end_line": 652
+        },
+        {
+          "signature": "Redirect.setTextColor(colour)",
+          "name": "Redirect.setTextColor",
+          "source_line": 797,
+          "kind": "callable",
+          "end_source_line": 812,
+          "line": 653,
+          "end_line": 668
+        },
+        {
+          "signature": "Redirect.getBackgroundColour()",
+          "name": "Redirect.getBackgroundColour",
+          "source_line": 813,
+          "kind": "callable",
+          "end_source_line": 827,
+          "line": 669,
+          "end_line": 683
+        },
+        {
+          "signature": "Redirect.getBackgroundColor()",
+          "name": "Redirect.getBackgroundColor",
+          "source_line": 828,
+          "kind": "callable",
+          "end_source_line": 842,
+          "line": 684,
+          "end_line": 698
+        },
+        {
+          "signature": "Redirect.setBackgroundColour(colour)",
+          "name": "Redirect.setBackgroundColour",
+          "source_line": 843,
+          "kind": "callable",
+          "end_source_line": 858,
+          "line": 699,
+          "end_line": 714
+        },
+        {
+          "signature": "Redirect.setBackgroundColor(colour)",
+          "name": "Redirect.setBackgroundColor",
+          "source_line": 859,
+          "kind": "callable",
+          "end_source_line": 874,
+          "line": 715,
+          "end_line": 730
+        },
+        {
+          "signature": "Redirect.isColour()",
+          "name": "Redirect.isColour",
+          "source_line": 875,
+          "kind": "callable",
+          "end_source_line": 887,
+          "line": 731,
+          "end_line": 743
+        },
+        {
+          "signature": "Redirect.isColor()",
+          "name": "Redirect.isColor",
+          "source_line": 888,
+          "kind": "callable",
+          "end_source_line": 900,
+          "line": 744,
+          "end_line": 756
+        },
+        {
+          "signature": "Redirect.blit(text, textColour, backgroundColour)",
+          "name": "Redirect.blit",
+          "source_line": 901,
+          "kind": "callable",
+          "end_source_line": 929,
+          "line": 757,
+          "end_line": 785
+        },
+        {
+          "signature": "Redirect.setPaletteColour(...)",
+          "name": "Redirect.setPaletteColour",
+          "source_line": 930,
+          "kind": "callable",
+          "end_source_line": 965,
+          "line": 786,
+          "end_line": 821
+        },
+        {
+          "signature": "Redirect.setPaletteColor(...)",
+          "name": "Redirect.setPaletteColor",
+          "source_line": 966,
+          "kind": "callable",
+          "end_source_line": 1003,
+          "line": 822,
+          "end_line": 859
+        },
+        {
+          "signature": "Redirect.getPaletteColour(colour)",
+          "name": "Redirect.getPaletteColour",
+          "source_line": 1004,
+          "kind": "callable",
+          "end_source_line": 1020,
+          "line": 860,
+          "end_line": 876
+        },
+        {
+          "signature": "Redirect.getPaletteColor(colour)",
+          "name": "Redirect.getPaletteColor",
+          "source_line": 1021,
+          "kind": "callable",
+          "end_source_line": 1038,
+          "line": 877,
+          "end_line": 894
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "4f06d9ac54707e64fe4d693589bef1a921559506cbadd3601981c0483b73e2fb"
+    },
+    {
+      "url": "https://tweaked.cc/module/textutils.html",
+      "category": "module",
+      "name": "textutils",
+      "title": "textutils",
+      "path": "pages/module--textutils.md",
+      "total_source_lines": 683,
+      "covered_source_lines": 683,
+      "body_start_source_line": 136,
+      "members": [
+        {
+          "signature": "slowWrite(text [, rate])",
+          "name": "slowWrite",
+          "source_line": 159,
+          "kind": "callable",
+          "end_source_line": 177,
+          "line": 28,
+          "end_line": 46
+        },
+        {
+          "signature": "slowPrint(sText [, nRate])",
+          "name": "slowPrint",
+          "source_line": 178,
+          "kind": "callable",
+          "end_source_line": 194,
+          "line": 47,
+          "end_line": 63
+        },
+        {
+          "signature": "formatTime(nTime [, bTwentyFourHour])",
+          "name": "formatTime",
+          "source_line": 195,
+          "kind": "callable",
+          "end_source_line": 216,
+          "line": 64,
+          "end_line": 85
+        },
+        {
+          "signature": "pagedPrint(text [, free_lines])",
+          "name": "pagedPrint",
+          "source_line": 217,
+          "kind": "callable",
+          "end_source_line": 240,
+          "line": 86,
+          "end_line": 109
+        },
+        {
+          "signature": "tabulate(...)",
+          "name": "tabulate",
+          "source_line": 241,
+          "kind": "callable",
+          "end_source_line": 260,
+          "line": 110,
+          "end_line": 129
+        },
+        {
+          "signature": "pagedTabulate(...)",
+          "name": "pagedTabulate",
+          "source_line": 261,
+          "kind": "callable",
+          "end_source_line": 285,
+          "line": 130,
+          "end_line": 154
+        },
+        {
+          "signature": "empty_json_array",
+          "name": "empty_json_array",
+          "source_line": 286,
+          "kind": "member",
+          "end_source_line": 299,
+          "line": 155,
+          "end_line": 168
+        },
+        {
+          "signature": "json_null",
+          "name": "json_null",
+          "source_line": 300,
+          "kind": "member",
+          "end_source_line": 313,
+          "line": 169,
+          "end_line": 182
+        },
+        {
+          "signature": "serialize(t, opts)",
+          "name": "serialize",
+          "source_line": 314,
+          "kind": "callable",
+          "end_source_line": 354,
+          "line": 183,
+          "end_line": 223
+        },
+        {
+          "signature": "serialise(t, opts)",
+          "name": "serialise",
+          "source_line": 355,
+          "kind": "callable",
+          "end_source_line": 395,
+          "line": 224,
+          "end_line": 264
+        },
+        {
+          "signature": "unserialize(s)",
+          "name": "unserialize",
+          "source_line": 396,
+          "kind": "callable",
+          "end_source_line": 416,
+          "line": 265,
+          "end_line": 285
+        },
+        {
+          "signature": "unserialise(s)",
+          "name": "unserialise",
+          "source_line": 417,
+          "kind": "callable",
+          "end_source_line": 437,
+          "line": 286,
+          "end_line": 306
+        },
+        {
+          "signature": "serializeJSON(...)",
+          "name": "serializeJSON",
+          "source_line": 438,
+          "kind": "callable",
+          "end_source_line": 489,
+          "line": 307,
+          "end_line": 358
+        },
+        {
+          "signature": "serialiseJSON(...)",
+          "name": "serialiseJSON",
+          "source_line": 490,
+          "kind": "callable",
+          "end_source_line": 541,
+          "line": 359,
+          "end_line": 410
+        },
+        {
+          "signature": "unserializeJSON(s [, options])",
+          "name": "unserializeJSON",
+          "source_line": 542,
+          "kind": "callable",
+          "end_source_line": 588,
+          "line": 411,
+          "end_line": 457
+        },
+        {
+          "signature": "unserialiseJSON(s [, options])",
+          "name": "unserialiseJSON",
+          "source_line": 589,
+          "kind": "callable",
+          "end_source_line": 636,
+          "line": 458,
+          "end_line": 505
+        },
+        {
+          "signature": "urlEncode(str)",
+          "name": "urlEncode",
+          "source_line": 637,
+          "kind": "callable",
+          "end_source_line": 655,
+          "line": 506,
+          "end_line": 524
+        },
+        {
+          "signature": "complete(sSearchText [, tSearchTable])",
+          "name": "complete",
+          "source_line": 656,
+          "kind": "callable",
+          "end_source_line": 682,
+          "line": 525,
+          "end_line": 551
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "d93b39a978e31a2435e819aa0d32df9e9321022e2d87b5a4d4c4ad07aba8afae"
+    },
+    {
+      "url": "https://tweaked.cc/module/turtle.html",
+      "category": "module",
+      "name": "turtle",
+      "title": "turtle",
+      "path": "pages/module--turtle.md",
+      "total_source_lines": 1088,
+      "covered_source_lines": 1088,
+      "body_start_source_line": 162,
+      "members": [
+        {
+          "signature": "craft([limit=64])",
+          "name": "craft",
+          "source_line": 276,
+          "kind": "callable",
+          "end_source_line": 301,
+          "line": 119,
+          "end_line": 144
+        },
+        {
+          "signature": "native",
+          "name": "native",
+          "source_line": 302,
+          "kind": "member",
+          "end_source_line": 308,
+          "line": 145,
+          "end_line": 151
+        },
+        {
+          "signature": "forward()",
+          "name": "forward",
+          "source_line": 309,
+          "kind": "callable",
+          "end_source_line": 316,
+          "line": 152,
+          "end_line": 159
+        },
+        {
+          "signature": "back()",
+          "name": "back",
+          "source_line": 317,
+          "kind": "callable",
+          "end_source_line": 325,
+          "line": 160,
+          "end_line": 168
+        },
+        {
+          "signature": "up()",
+          "name": "up",
+          "source_line": 326,
+          "kind": "callable",
+          "end_source_line": 333,
+          "line": 169,
+          "end_line": 176
+        },
+        {
+          "signature": "down()",
+          "name": "down",
+          "source_line": 334,
+          "kind": "callable",
+          "end_source_line": 342,
+          "line": 177,
+          "end_line": 185
+        },
+        {
+          "signature": "turnLeft()",
+          "name": "turnLeft",
+          "source_line": 343,
+          "kind": "callable",
+          "end_source_line": 350,
+          "line": 186,
+          "end_line": 193
+        },
+        {
+          "signature": "turnRight()",
+          "name": "turnRight",
+          "source_line": 351,
+          "kind": "callable",
+          "end_source_line": 358,
+          "line": 194,
+          "end_line": 201
+        },
+        {
+          "signature": "dig([side])",
+          "name": "dig",
+          "source_line": 359,
+          "kind": "callable",
+          "end_source_line": 376,
+          "line": 202,
+          "end_line": 219
+        },
+        {
+          "signature": "digUp([side])",
+          "name": "digUp",
+          "source_line": 377,
+          "kind": "callable",
+          "end_source_line": 392,
+          "line": 220,
+          "end_line": 235
+        },
+        {
+          "signature": "digDown([side])",
+          "name": "digDown",
+          "source_line": 393,
+          "kind": "callable",
+          "end_source_line": 407,
+          "line": 236,
+          "end_line": 250
+        },
+        {
+          "signature": "place([text])",
+          "name": "place",
+          "source_line": 408,
+          "kind": "callable",
+          "end_source_line": 425,
+          "line": 251,
+          "end_line": 268
+        },
+        {
+          "signature": "placeUp([text])",
+          "name": "placeUp",
+          "source_line": 426,
+          "kind": "callable",
+          "end_source_line": 445,
+          "line": 269,
+          "end_line": 288
+        },
+        {
+          "signature": "placeDown([text])",
+          "name": "placeDown",
+          "source_line": 446,
+          "kind": "callable",
+          "end_source_line": 465,
+          "line": 289,
+          "end_line": 308
+        },
+        {
+          "signature": "drop([count])",
+          "name": "drop",
+          "source_line": 466,
+          "kind": "callable",
+          "end_source_line": 488,
+          "line": 309,
+          "end_line": 331
+        },
+        {
+          "signature": "dropUp([count])",
+          "name": "dropUp",
+          "source_line": 489,
+          "kind": "callable",
+          "end_source_line": 512,
+          "line": 332,
+          "end_line": 355
+        },
+        {
+          "signature": "dropDown([count])",
+          "name": "dropDown",
+          "source_line": 513,
+          "kind": "callable",
+          "end_source_line": 536,
+          "line": 356,
+          "end_line": 379
+        },
+        {
+          "signature": "select(slot)",
+          "name": "select",
+          "source_line": 537,
+          "kind": "callable",
+          "end_source_line": 557,
+          "line": 380,
+          "end_line": 400
+        },
+        {
+          "signature": "getItemCount([slot])",
+          "name": "getItemCount",
+          "source_line": 558,
+          "kind": "callable",
+          "end_source_line": 573,
+          "line": 401,
+          "end_line": 416
+        },
+        {
+          "signature": "getItemSpace([slot])",
+          "name": "getItemSpace",
+          "source_line": 574,
+          "kind": "callable",
+          "end_source_line": 591,
+          "line": 417,
+          "end_line": 434
+        },
+        {
+          "signature": "detect()",
+          "name": "detect",
+          "source_line": 592,
+          "kind": "callable",
+          "end_source_line": 599,
+          "line": 435,
+          "end_line": 442
+        },
+        {
+          "signature": "detectUp()",
+          "name": "detectUp",
+          "source_line": 600,
+          "kind": "callable",
+          "end_source_line": 606,
+          "line": 443,
+          "end_line": 449
+        },
+        {
+          "signature": "detectDown()",
+          "name": "detectDown",
+          "source_line": 607,
+          "kind": "callable",
+          "end_source_line": 614,
+          "line": 450,
+          "end_line": 457
+        },
+        {
+          "signature": "compare()",
+          "name": "compare",
+          "source_line": 615,
+          "kind": "callable",
+          "end_source_line": 625,
+          "line": 458,
+          "end_line": 468
+        },
+        {
+          "signature": "compareUp()",
+          "name": "compareUp",
+          "source_line": 626,
+          "kind": "callable",
+          "end_source_line": 637,
+          "line": 469,
+          "end_line": 480
+        },
+        {
+          "signature": "compareDown()",
+          "name": "compareDown",
+          "source_line": 638,
+          "kind": "callable",
+          "end_source_line": 648,
+          "line": 481,
+          "end_line": 491
+        },
+        {
+          "signature": "attack([side])",
+          "name": "attack",
+          "source_line": 649,
+          "kind": "callable",
+          "end_source_line": 665,
+          "line": 492,
+          "end_line": 508
+        },
+        {
+          "signature": "attackUp([side])",
+          "name": "attackUp",
+          "source_line": 666,
+          "kind": "callable",
+          "end_source_line": 682,
+          "line": 509,
+          "end_line": 525
+        },
+        {
+          "signature": "attackDown([side])",
+          "name": "attackDown",
+          "source_line": 683,
+          "kind": "callable",
+          "end_source_line": 699,
+          "line": 526,
+          "end_line": 542
+        },
+        {
+          "signature": "suck([count])",
+          "name": "suck",
+          "source_line": 700,
+          "kind": "callable",
+          "end_source_line": 722,
+          "line": 543,
+          "end_line": 565
+        },
+        {
+          "signature": "suckUp([count])",
+          "name": "suckUp",
+          "source_line": 723,
+          "kind": "callable",
+          "end_source_line": 742,
+          "line": 566,
+          "end_line": 585
+        },
+        {
+          "signature": "suckDown([count])",
+          "name": "suckDown",
+          "source_line": 743,
+          "kind": "callable",
+          "end_source_line": 763,
+          "line": 586,
+          "end_line": 606
+        },
+        {
+          "signature": "getFuelLevel()",
+          "name": "getFuelLevel",
+          "source_line": 764,
+          "kind": "callable",
+          "end_source_line": 783,
+          "line": 607,
+          "end_line": 626
+        },
+        {
+          "signature": "refuel([count])",
+          "name": "refuel",
+          "source_line": 784,
+          "kind": "callable",
+          "end_source_line": 832,
+          "line": 627,
+          "end_line": 675
+        },
+        {
+          "signature": "compareTo(slot)",
+          "name": "compareTo",
+          "source_line": 833,
+          "kind": "callable",
+          "end_source_line": 851,
+          "line": 676,
+          "end_line": 694
+        },
+        {
+          "signature": "transferTo(slot [, count])",
+          "name": "transferTo",
+          "source_line": 852,
+          "kind": "callable",
+          "end_source_line": 873,
+          "line": 695,
+          "end_line": 716
+        },
+        {
+          "signature": "getSelectedSlot()",
+          "name": "getSelectedSlot",
+          "source_line": 874,
+          "kind": "callable",
+          "end_source_line": 889,
+          "line": 717,
+          "end_line": 732
+        },
+        {
+          "signature": "getFuelLimit()",
+          "name": "getFuelLimit",
+          "source_line": 890,
+          "kind": "callable",
+          "end_source_line": 910,
+          "line": 733,
+          "end_line": 753
+        },
+        {
+          "signature": "equipLeft()",
+          "name": "equipLeft",
+          "source_line": 911,
+          "kind": "callable",
+          "end_source_line": 932,
+          "line": 754,
+          "end_line": 775
+        },
+        {
+          "signature": "equipRight()",
+          "name": "equipRight",
+          "source_line": 933,
+          "kind": "callable",
+          "end_source_line": 955,
+          "line": 776,
+          "end_line": 798
+        },
+        {
+          "signature": "getEquippedLeft()",
+          "name": "getEquippedLeft",
+          "source_line": 956,
+          "kind": "callable",
+          "end_source_line": 973,
+          "line": 799,
+          "end_line": 816
+        },
+        {
+          "signature": "getEquippedRight()",
+          "name": "getEquippedRight",
+          "source_line": 974,
+          "kind": "callable",
+          "end_source_line": 991,
+          "line": 817,
+          "end_line": 834
+        },
+        {
+          "signature": "inspect()",
+          "name": "inspect",
+          "source_line": 992,
+          "kind": "callable",
+          "end_source_line": 1020,
+          "line": 835,
+          "end_line": 863
+        },
+        {
+          "signature": "inspectUp()",
+          "name": "inspectUp",
+          "source_line": 1021,
+          "kind": "callable",
+          "end_source_line": 1036,
+          "line": 864,
+          "end_line": 879
+        },
+        {
+          "signature": "inspectDown()",
+          "name": "inspectDown",
+          "source_line": 1037,
+          "kind": "callable",
+          "end_source_line": 1052,
+          "line": 880,
+          "end_line": 895
+        },
+        {
+          "signature": "getItemDetail([slot [, detailed]])",
+          "name": "getItemDetail",
+          "source_line": 1053,
+          "kind": "callable",
+          "end_source_line": 1087,
+          "line": 896,
+          "end_line": 930
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "d1f4510ecb3988d4de2b5605c9abecf9128207c3eb83fece776843bec8d90c82"
+    },
+    {
+      "url": "https://tweaked.cc/module/vector.html",
+      "category": "module",
+      "name": "vector",
+      "title": "vector",
+      "path": "pages/module--vector.md",
+      "total_source_lines": 335,
+      "covered_source_lines": 335,
+      "body_start_source_line": 125,
+      "members": [
+        {
+          "signature": "new(x, y, z)",
+          "name": "new",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 157,
+          "line": 16,
+          "end_line": 37
+        },
+        {
+          "signature": "Vector:add(o)",
+          "name": "Vector:add",
+          "source_line": 158,
+          "kind": "callable",
+          "end_source_line": 175,
+          "line": 38,
+          "end_line": 55
+        },
+        {
+          "signature": "Vector:sub(o)",
+          "name": "Vector:sub",
+          "source_line": 176,
+          "kind": "callable",
+          "end_source_line": 194,
+          "line": 56,
+          "end_line": 74
+        },
+        {
+          "signature": "Vector:mul(factor)",
+          "name": "Vector:mul",
+          "source_line": 195,
+          "kind": "callable",
+          "end_source_line": 212,
+          "line": 75,
+          "end_line": 92
+        },
+        {
+          "signature": "Vector:div(factor)",
+          "name": "Vector:div",
+          "source_line": 213,
+          "kind": "callable",
+          "end_source_line": 230,
+          "line": 93,
+          "end_line": 110
+        },
+        {
+          "signature": "Vector:unm()",
+          "name": "Vector:unm",
+          "source_line": 231,
+          "kind": "callable",
+          "end_source_line": 243,
+          "line": 111,
+          "end_line": 123
+        },
+        {
+          "signature": "Vector:dot(o)",
+          "name": "Vector:dot",
+          "source_line": 244,
+          "kind": "callable",
+          "end_source_line": 259,
+          "line": 124,
+          "end_line": 139
+        },
+        {
+          "signature": "Vector:cross(o)",
+          "name": "Vector:cross",
+          "source_line": 260,
+          "kind": "callable",
+          "end_source_line": 276,
+          "line": 140,
+          "end_line": 156
+        },
+        {
+          "signature": "Vector:length()",
+          "name": "Vector:length",
+          "source_line": 277,
+          "kind": "callable",
+          "end_source_line": 283,
+          "line": 157,
+          "end_line": 163
+        },
+        {
+          "signature": "Vector:normalize()",
+          "name": "Vector:normalize",
+          "source_line": 284,
+          "kind": "callable",
+          "end_source_line": 296,
+          "line": 164,
+          "end_line": 176
+        },
+        {
+          "signature": "Vector:round([tolerance])",
+          "name": "Vector:round",
+          "source_line": 297,
+          "kind": "callable",
+          "end_source_line": 307,
+          "line": 177,
+          "end_line": 187
+        },
+        {
+          "signature": "Vector:tostring()",
+          "name": "Vector:tostring",
+          "source_line": 308,
+          "kind": "callable",
+          "end_source_line": 321,
+          "line": 188,
+          "end_line": 201
+        },
+        {
+          "signature": "Vector:equals(other)",
+          "name": "Vector:equals",
+          "source_line": 322,
+          "kind": "callable",
+          "end_source_line": 334,
+          "line": 202,
+          "end_line": 214
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "4ccdee7ee5ff376d1b2b250058f10384c646f62611f92e81a1498ea1001962c8"
+    },
+    {
+      "url": "https://tweaked.cc/module/window.html",
+      "category": "module",
+      "name": "window",
+      "title": "window",
+      "path": "pages/module--window.md",
+      "total_source_lines": 365,
+      "covered_source_lines": 365,
+      "body_start_source_line": 125,
+      "members": [
+        {
+          "signature": "create(parent, nX, nY, nWidth, nHeight [, bStartVisible])",
+          "name": "create",
+          "source_line": 137,
+          "kind": "callable",
+          "end_source_line": 180,
+          "line": 17,
+          "end_line": 60
+        },
+        {
+          "signature": "Window.write(sText)",
+          "name": "Window.write",
+          "source_line": 181,
+          "kind": "callable",
+          "end_source_line": 186,
+          "line": 61,
+          "end_line": 66
+        },
+        {
+          "signature": "Window.blit(sText, sTextColor, sBackgroundColor)",
+          "name": "Window.blit",
+          "source_line": 187,
+          "kind": "callable",
+          "end_source_line": 192,
+          "line": 67,
+          "end_line": 72
+        },
+        {
+          "signature": "Window.clear()",
+          "name": "Window.clear",
+          "source_line": 193,
+          "kind": "callable",
+          "end_source_line": 194,
+          "line": 73,
+          "end_line": 74
+        },
+        {
+          "signature": "Window.clearLine()",
+          "name": "Window.clearLine",
+          "source_line": 195,
+          "kind": "callable",
+          "end_source_line": 196,
+          "line": 75,
+          "end_line": 76
+        },
+        {
+          "signature": "Window.getCursorPos()",
+          "name": "Window.getCursorPos",
+          "source_line": 197,
+          "kind": "callable",
+          "end_source_line": 198,
+          "line": 77,
+          "end_line": 78
+        },
+        {
+          "signature": "Window.setCursorPos(x, y)",
+          "name": "Window.setCursorPos",
+          "source_line": 199,
+          "kind": "callable",
+          "end_source_line": 205,
+          "line": 79,
+          "end_line": 85
+        },
+        {
+          "signature": "Window.setCursorBlink(blink)",
+          "name": "Window.setCursorBlink",
+          "source_line": 206,
+          "kind": "callable",
+          "end_source_line": 209,
+          "line": 86,
+          "end_line": 89
+        },
+        {
+          "signature": "Window.getCursorBlink()",
+          "name": "Window.getCursorBlink",
+          "source_line": 210,
+          "kind": "callable",
+          "end_source_line": 211,
+          "line": 90,
+          "end_line": 91
+        },
+        {
+          "signature": "Window.isColor()",
+          "name": "Window.isColor",
+          "source_line": 212,
+          "kind": "callable",
+          "end_source_line": 213,
+          "line": 92,
+          "end_line": 93
+        },
+        {
+          "signature": "Window.isColour()",
+          "name": "Window.isColour",
+          "source_line": 214,
+          "kind": "callable",
+          "end_source_line": 215,
+          "line": 94,
+          "end_line": 95
+        },
+        {
+          "signature": "Window.setTextColor(color)",
+          "name": "Window.setTextColor",
+          "source_line": 216,
+          "kind": "callable",
+          "end_source_line": 221,
+          "line": 96,
+          "end_line": 101
+        },
+        {
+          "signature": "Window.setTextColour(color)",
+          "name": "Window.setTextColour",
+          "source_line": 222,
+          "kind": "callable",
+          "end_source_line": 227,
+          "line": 102,
+          "end_line": 107
+        },
+        {
+          "signature": "Window.setPaletteColour(colour, r, g, b)",
+          "name": "Window.setPaletteColour",
+          "source_line": 228,
+          "kind": "callable",
+          "end_source_line": 234,
+          "line": 108,
+          "end_line": 114
+        },
+        {
+          "signature": "Window.setPaletteColor(colour, r, g, b)",
+          "name": "Window.setPaletteColor",
+          "source_line": 235,
+          "kind": "callable",
+          "end_source_line": 243,
+          "line": 115,
+          "end_line": 123
+        },
+        {
+          "signature": "Window.getPaletteColour(colour)",
+          "name": "Window.getPaletteColour",
+          "source_line": 244,
+          "kind": "callable",
+          "end_source_line": 249,
+          "line": 124,
+          "end_line": 129
+        },
+        {
+          "signature": "Window.getPaletteColor(colour)",
+          "name": "Window.getPaletteColor",
+          "source_line": 250,
+          "kind": "callable",
+          "end_source_line": 255,
+          "line": 130,
+          "end_line": 135
+        },
+        {
+          "signature": "Window.setBackgroundColor(color)",
+          "name": "Window.setBackgroundColor",
+          "source_line": 256,
+          "kind": "callable",
+          "end_source_line": 261,
+          "line": 136,
+          "end_line": 141
+        },
+        {
+          "signature": "Window.setBackgroundColour(color)",
+          "name": "Window.setBackgroundColour",
+          "source_line": 262,
+          "kind": "callable",
+          "end_source_line": 265,
+          "line": 142,
+          "end_line": 145
+        },
+        {
+          "signature": "Window.getSize()",
+          "name": "Window.getSize",
+          "source_line": 266,
+          "kind": "callable",
+          "end_source_line": 267,
+          "line": 146,
+          "end_line": 147
+        },
+        {
+          "signature": "Window.scroll(n)",
+          "name": "Window.scroll",
+          "source_line": 268,
+          "kind": "callable",
+          "end_source_line": 273,
+          "line": 148,
+          "end_line": 153
+        },
+        {
+          "signature": "Window.getTextColor()",
+          "name": "Window.getTextColor",
+          "source_line": 274,
+          "kind": "callable",
+          "end_source_line": 275,
+          "line": 154,
+          "end_line": 155
+        },
+        {
+          "signature": "Window.getTextColour()",
+          "name": "Window.getTextColour",
+          "source_line": 276,
+          "kind": "callable",
+          "end_source_line": 277,
+          "line": 156,
+          "end_line": 157
+        },
+        {
+          "signature": "Window.getBackgroundColor()",
+          "name": "Window.getBackgroundColor",
+          "source_line": 278,
+          "kind": "callable",
+          "end_source_line": 279,
+          "line": 158,
+          "end_line": 159
+        },
+        {
+          "signature": "Window.getBackgroundColour()",
+          "name": "Window.getBackgroundColour",
+          "source_line": 280,
+          "kind": "callable",
+          "end_source_line": 281,
+          "line": 160,
+          "end_line": 161
+        },
+        {
+          "signature": "Window.getLine(y)",
+          "name": "Window.getLine",
+          "source_line": 282,
+          "kind": "callable",
+          "end_source_line": 301,
+          "line": 162,
+          "end_line": 181
+        },
+        {
+          "signature": "Window.setVisible(visible)",
+          "name": "Window.setVisible",
+          "source_line": 302,
+          "kind": "callable",
+          "end_source_line": 310,
+          "line": 182,
+          "end_line": 190
+        },
+        {
+          "signature": "Window.isVisible()",
+          "name": "Window.isVisible",
+          "source_line": 311,
+          "kind": "callable",
+          "end_source_line": 326,
+          "line": 191,
+          "end_line": 206
+        },
+        {
+          "signature": "Window.redraw()",
+          "name": "Window.redraw",
+          "source_line": 327,
+          "kind": "callable",
+          "end_source_line": 333,
+          "line": 207,
+          "end_line": 213
+        },
+        {
+          "signature": "Window.restoreCursor()",
+          "name": "Window.restoreCursor",
+          "source_line": 334,
+          "kind": "callable",
+          "end_source_line": 338,
+          "line": 214,
+          "end_line": 218
+        },
+        {
+          "signature": "Window.getPosition()",
+          "name": "Window.getPosition",
+          "source_line": 339,
+          "kind": "callable",
+          "end_source_line": 346,
+          "line": 219,
+          "end_line": 226
+        },
+        {
+          "signature": "Window.reposition(new_x, new_y [, new_width, new_height [, new_parent]])",
+          "name": "Window.reposition",
+          "source_line": 347,
+          "kind": "callable",
+          "end_source_line": 364,
+          "line": 227,
+          "end_line": 244
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "6b333f42bbfcd1022ce94947ef7311983215f9b71633a8db63eabab4062ead88"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.audio.dfpwm.html",
+      "category": "library",
+      "name": "cc.audio.dfpwm",
+      "title": "cc.audio.dfpwm",
+      "path": "pages/library--cc.audio.dfpwm.md",
+      "total_source_lines": 251,
+      "covered_source_lines": 251,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "make_encoder()",
+          "name": "make_encoder",
+          "source_line": 172,
+          "kind": "callable",
+          "end_source_line": 186,
+          "line": 55,
+          "end_line": 69
+        },
+        {
+          "signature": "encode(input)",
+          "name": "encode",
+          "source_line": 187,
+          "kind": "callable",
+          "end_source_line": 203,
+          "line": 70,
+          "end_line": 86
+        },
+        {
+          "signature": "make_decoder()",
+          "name": "make_decoder",
+          "source_line": 204,
+          "kind": "callable",
+          "end_source_line": 232,
+          "line": 87,
+          "end_line": 115
+        },
+        {
+          "signature": "decode(input)",
+          "name": "decode",
+          "source_line": 233,
+          "kind": "callable",
+          "end_source_line": 250,
+          "line": 116,
+          "end_line": 133
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "34eabcefc9cca5e904f51317da42e6a2978cccec37de114446c242bc0476b534"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.base64.html",
+      "category": "library",
+      "name": "cc.base64",
+      "title": "cc.base64",
+      "path": "pages/library--cc.base64.md",
+      "total_source_lines": 191,
+      "covered_source_lines": 191,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "encode(str [, alt_chars=\"+/\"])",
+          "name": "encode",
+          "source_line": 138,
+          "kind": "callable",
+          "end_source_line": 160,
+          "line": 22,
+          "end_line": 44
+        },
+        {
+          "signature": "decode(str [, alt_chars=\"+/\"])",
+          "name": "decode",
+          "source_line": 161,
+          "kind": "callable",
+          "end_source_line": 190,
+          "line": 45,
+          "end_line": 74
+        }
+      ],
+      "last_updated": "2026-09-12",
+      "sha256": "874712878e191f81c23b5cce646cab10c5f7c6f1e46cbd5746903dd5b396f30e"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.completion.html",
+      "category": "library",
+      "name": "cc.completion",
+      "title": "cc.completion",
+      "path": "pages/library--cc.completion.md",
+      "total_source_lines": 230,
+      "covered_source_lines": 230,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "choice(text, choices [, add_space])",
+          "name": "choice",
+          "source_line": 138,
+          "kind": "callable",
+          "end_source_line": 156,
+          "line": 21,
+          "end_line": 39
+        },
+        {
+          "signature": "peripheral(text [, add_space])",
+          "name": "peripheral",
+          "source_line": 157,
+          "kind": "callable",
+          "end_source_line": 174,
+          "line": 40,
+          "end_line": 57
+        },
+        {
+          "signature": "side(text [, add_space])",
+          "name": "side",
+          "source_line": 175,
+          "kind": "callable",
+          "end_source_line": 192,
+          "line": 58,
+          "end_line": 75
+        },
+        {
+          "signature": "setting(text [, add_space])",
+          "name": "setting",
+          "source_line": 193,
+          "kind": "callable",
+          "end_source_line": 210,
+          "line": 76,
+          "end_line": 93
+        },
+        {
+          "signature": "command(text [, add_space])",
+          "name": "command",
+          "source_line": 211,
+          "kind": "callable",
+          "end_source_line": 229,
+          "line": 94,
+          "end_line": 112
+        }
+      ],
+      "last_updated": "2026-08-28",
+      "sha256": "f6bc8791d4c5da536ffb0ef4e1dc1793503d0bc464624e42396af147fa40811e"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.expect.html",
+      "category": "library",
+      "name": "cc.expect",
+      "title": "cc.expect",
+      "path": "pages/library--cc.expect.md",
+      "total_source_lines": 207,
+      "covered_source_lines": 207,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "expect(index, value, ...)",
+          "name": "expect",
+          "source_line": 149,
+          "kind": "callable",
+          "end_source_line": 166,
+          "line": 33,
+          "end_line": 50
+        },
+        {
+          "signature": "field(tbl, index, ...)",
+          "name": "field",
+          "source_line": 167,
+          "kind": "callable",
+          "end_source_line": 184,
+          "line": 51,
+          "end_line": 68
+        },
+        {
+          "signature": "range(num [, min=-math.huge [, max=math.huge]])",
+          "name": "range",
+          "source_line": 185,
+          "kind": "callable",
+          "end_source_line": 206,
+          "line": 69,
+          "end_line": 90
+        }
+      ],
+      "last_updated": "2026-08-25",
+      "sha256": "b664f553abdf9315bd14afded4b36a438665f65e6132867b381252e0adc50da3"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.image.nft.html",
+      "category": "library",
+      "name": "cc.image.nft",
+      "title": "cc.image.nft",
+      "path": "pages/library--cc.image.nft.md",
+      "total_source_lines": 181,
+      "covered_source_lines": 181,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "parse(image)",
+          "name": "parse",
+          "source_line": 142,
+          "kind": "callable",
+          "end_source_line": 153,
+          "line": 25,
+          "end_line": 36
+        },
+        {
+          "signature": "load(path)",
+          "name": "load",
+          "source_line": 154,
+          "kind": "callable",
+          "end_source_line": 169,
+          "line": 37,
+          "end_line": 52
+        },
+        {
+          "signature": "draw(image, xPos, yPos [, target])",
+          "name": "draw",
+          "source_line": 170,
+          "kind": "callable",
+          "end_source_line": 180,
+          "line": 53,
+          "end_line": 63
+        }
+      ],
+      "last_updated": "2026-09-17",
+      "sha256": "4a8165ad5ed2d15e04b5703d8329407319a5fe64dd178d54c7ae597f6ff6b10d"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.pretty.html",
+      "category": "library",
+      "name": "cc.pretty",
+      "title": "cc.pretty",
+      "path": "pages/library--cc.pretty.md",
+      "total_source_lines": 376,
+      "covered_source_lines": 376,
+      "body_start_source_line": 135,
+      "members": [
+        {
+          "signature": "empty",
+          "name": "empty",
+          "source_line": 169,
+          "kind": "member",
+          "end_source_line": 173,
+          "line": 39,
+          "end_line": 43
+        },
+        {
+          "signature": "space",
+          "name": "space",
+          "source_line": 174,
+          "kind": "member",
+          "end_source_line": 178,
+          "line": 44,
+          "end_line": 48
+        },
+        {
+          "signature": "line",
+          "name": "line",
+          "source_line": 179,
+          "kind": "member",
+          "end_source_line": 183,
+          "line": 49,
+          "end_line": 53
+        },
+        {
+          "signature": "space_line",
+          "name": "space_line",
+          "source_line": 184,
+          "kind": "member",
+          "end_source_line": 188,
+          "line": 54,
+          "end_line": 58
+        },
+        {
+          "signature": "text(text [, colour])",
+          "name": "text",
+          "source_line": 189,
+          "kind": "callable",
+          "end_source_line": 208,
+          "line": 59,
+          "end_line": 78
+        },
+        {
+          "signature": "concat(...)",
+          "name": "concat",
+          "source_line": 209,
+          "kind": "callable",
+          "end_source_line": 227,
+          "line": 79,
+          "end_line": 97
+        },
+        {
+          "signature": "nest(depth, doc)",
+          "name": "nest",
+          "source_line": 228,
+          "kind": "callable",
+          "end_source_line": 255,
+          "line": 98,
+          "end_line": 125
+        },
+        {
+          "signature": "group(doc)",
+          "name": "group",
+          "source_line": 256,
+          "kind": "callable",
+          "end_source_line": 275,
+          "line": 126,
+          "end_line": 145
+        },
+        {
+          "signature": "write(doc [, ribbon_frac=0.6])",
+          "name": "write",
+          "source_line": 276,
+          "kind": "callable",
+          "end_source_line": 283,
+          "line": 146,
+          "end_line": 153
+        },
+        {
+          "signature": "print(doc [, ribbon_frac=0.6])",
+          "name": "print",
+          "source_line": 284,
+          "kind": "callable",
+          "end_source_line": 291,
+          "line": 154,
+          "end_line": 161
+        },
+        {
+          "signature": "render(doc [, width [, ribbon_frac=0.6]])",
+          "name": "render",
+          "source_line": 292,
+          "kind": "callable",
+          "end_source_line": 303,
+          "line": 162,
+          "end_line": 173
+        },
+        {
+          "signature": "pretty(obj [, options])",
+          "name": "pretty",
+          "source_line": 304,
+          "kind": "callable",
+          "end_source_line": 336,
+          "line": 174,
+          "end_line": 206
+        },
+        {
+          "signature": "pretty_print(obj [, options [, ribbon_frac=0.6]])",
+          "name": "pretty_print",
+          "source_line": 337,
+          "kind": "callable",
+          "end_source_line": 375,
+          "line": 207,
+          "end_line": 245
+        }
+      ],
+      "last_updated": "2026-09-24",
+      "sha256": "c0e2e73ee64e2b5d96f547002d6df3e0cbf4750036c496fb323d28f2720406af"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.require.html",
+      "category": "library",
+      "name": "cc.require",
+      "title": "cc.require",
+      "path": "pages/library--cc.require.md",
+      "total_source_lines": 160,
+      "covered_source_lines": 160,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "make(env, dir)",
+          "name": "make",
+          "source_line": 146,
+          "kind": "callable",
+          "end_source_line": 159,
+          "line": 30,
+          "end_line": 43
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "70aa9c64cecb5712281b1e9da9f39608be7a35667042abba3cc8867b8132919b"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.shell.completion.html",
+      "category": "library",
+      "name": "cc.shell.completion",
+      "title": "cc.shell.completion",
+      "path": "pages/library--cc.shell.completion.md",
+      "total_source_lines": 285,
+      "covered_source_lines": 285,
+      "body_start_source_line": 129,
+      "members": [
+        {
+          "signature": "file(shell, text)",
+          "name": "file",
+          "source_line": 166,
+          "kind": "callable",
+          "end_source_line": 177,
+          "line": 42,
+          "end_line": 53
+        },
+        {
+          "signature": "dir(shell, text)",
+          "name": "dir",
+          "source_line": 178,
+          "kind": "callable",
+          "end_source_line": 189,
+          "line": 54,
+          "end_line": 65
+        },
+        {
+          "signature": "dirOrFile(shell, text, previous [, add_space])",
+          "name": "dirOrFile",
+          "source_line": 190,
+          "kind": "callable",
+          "end_source_line": 203,
+          "line": 66,
+          "end_line": 79
+        },
+        {
+          "signature": "program(shell, text)",
+          "name": "program",
+          "source_line": 204,
+          "kind": "callable",
+          "end_source_line": 219,
+          "line": 80,
+          "end_line": 95
+        },
+        {
+          "signature": "programWithArgs(shell, text, previous, starting)",
+          "name": "programWithArgs",
+          "source_line": 220,
+          "kind": "callable",
+          "end_source_line": 236,
+          "line": 96,
+          "end_line": 112
+        },
+        {
+          "signature": "help",
+          "name": "help",
+          "source_line": 237,
+          "kind": "member",
+          "end_source_line": 241,
+          "line": 113,
+          "end_line": 117
+        },
+        {
+          "signature": "choice",
+          "name": "choice",
+          "source_line": 242,
+          "kind": "member",
+          "end_source_line": 246,
+          "line": 118,
+          "end_line": 122
+        },
+        {
+          "signature": "peripheral",
+          "name": "peripheral",
+          "source_line": 247,
+          "kind": "member",
+          "end_source_line": 251,
+          "line": 123,
+          "end_line": 127
+        },
+        {
+          "signature": "side",
+          "name": "side",
+          "source_line": 252,
+          "kind": "member",
+          "end_source_line": 255,
+          "line": 128,
+          "end_line": 131
+        },
+        {
+          "signature": "setting",
+          "name": "setting",
+          "source_line": 256,
+          "kind": "member",
+          "end_source_line": 260,
+          "line": 132,
+          "end_line": 136
+        },
+        {
+          "signature": "command",
+          "name": "command",
+          "source_line": 261,
+          "kind": "member",
+          "end_source_line": 265,
+          "line": 137,
+          "end_line": 141
+        },
+        {
+          "signature": "build(...)",
+          "name": "build",
+          "source_line": 266,
+          "kind": "callable",
+          "end_source_line": 284,
+          "line": 142,
+          "end_line": 160
+        }
+      ],
+      "last_updated": "2026-08-14",
+      "sha256": "18c1082ebed0bb6717bd0104816e1ed5acfdefb36decfee1f2c6f75836681f77"
+    },
+    {
+      "url": "https://tweaked.cc/library/cc.strings.html",
+      "category": "library",
+      "name": "cc.strings",
+      "title": "cc.strings",
+      "path": "pages/library--cc.strings.md",
+      "total_source_lines": 213,
+      "covered_source_lines": 213,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "wrap(text [, width])",
+          "name": "wrap",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 159,
+          "line": 19,
+          "end_line": 42
+        },
+        {
+          "signature": "ensure_width(line [, width])",
+          "name": "ensure_width",
+          "source_line": 160,
+          "kind": "callable",
+          "end_source_line": 177,
+          "line": 43,
+          "end_line": 60
+        },
+        {
+          "signature": "split(str, deliminator [, plain=false [, limit]])",
+          "name": "split",
+          "source_line": 178,
+          "kind": "callable",
+          "end_source_line": 212,
+          "line": 61,
+          "end_line": 95
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "1697907082aeb13f9e0ddf401a62fa162a4f987056f164c4f052fc7a866bc924"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/command.html",
+      "category": "peripheral",
+      "name": "command",
+      "title": "command",
+      "path": "pages/peripheral--command.md",
+      "total_source_lines": 157,
+      "covered_source_lines": 157,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "getCommand()",
+          "name": "getCommand",
+          "source_line": 134,
+          "kind": "callable",
+          "end_source_line": 138,
+          "line": 17,
+          "end_line": 21
+        },
+        {
+          "signature": "setCommand(command)",
+          "name": "setCommand",
+          "source_line": 139,
+          "kind": "callable",
+          "end_source_line": 146,
+          "line": 22,
+          "end_line": 29
+        },
+        {
+          "signature": "runCommand()",
+          "name": "runCommand",
+          "source_line": 147,
+          "kind": "callable",
+          "end_source_line": 156,
+          "line": 30,
+          "end_line": 39
+        }
+      ],
+      "last_updated": "2026-09-28",
+      "sha256": "45667a9db74cc5dd754f2f34e99eff35e5395af796aa6cfb131c666438110ef0"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/computer.html",
+      "category": "peripheral",
+      "name": "computer",
+      "title": "computer",
+      "path": "pages/peripheral--computer.md",
+      "total_source_lines": 183,
+      "covered_source_lines": 183,
+      "body_start_source_line": 124,
+      "members": [
+        {
+          "signature": "turnOn()",
+          "name": "turnOn",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 140,
+          "line": 17,
+          "end_line": 21
+        },
+        {
+          "signature": "shutdown()",
+          "name": "shutdown",
+          "source_line": 141,
+          "kind": "callable",
+          "end_source_line": 145,
+          "line": 22,
+          "end_line": 26
+        },
+        {
+          "signature": "reboot()",
+          "name": "reboot",
+          "source_line": 146,
+          "kind": "callable",
+          "end_source_line": 150,
+          "line": 27,
+          "end_line": 31
+        },
+        {
+          "signature": "getID()",
+          "name": "getID",
+          "source_line": 151,
+          "kind": "callable",
+          "end_source_line": 161,
+          "line": 32,
+          "end_line": 42
+        },
+        {
+          "signature": "isOn()",
+          "name": "isOn",
+          "source_line": 162,
+          "kind": "callable",
+          "end_source_line": 169,
+          "line": 43,
+          "end_line": 50
+        },
+        {
+          "signature": "getLabel()",
+          "name": "getLabel",
+          "source_line": 170,
+          "kind": "callable",
+          "end_source_line": 182,
+          "line": 51,
+          "end_line": 63
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "1a631aa3214ab2654b10ea8cdae41cea0c08d9c71bb88319a56ce5163bff735d"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/drive.html",
+      "category": "peripheral",
+      "name": "drive",
+      "title": "drive",
+      "path": "pages/peripheral--drive.md",
+      "total_source_lines": 260,
+      "covered_source_lines": 260,
+      "body_start_source_line": 129,
+      "members": [
+        {
+          "signature": "isDiskPresent()",
+          "name": "isDiskPresent",
+          "source_line": 169,
+          "kind": "callable",
+          "end_source_line": 175,
+          "line": 45,
+          "end_line": 51
+        },
+        {
+          "signature": "getDiskLabel()",
+          "name": "getDiskLabel",
+          "source_line": 176,
+          "kind": "callable",
+          "end_source_line": 182,
+          "line": 52,
+          "end_line": 58
+        },
+        {
+          "signature": "setDiskLabel([label])",
+          "name": "setDiskLabel",
+          "source_line": 183,
+          "kind": "callable",
+          "end_source_line": 198,
+          "line": 59,
+          "end_line": 74
+        },
+        {
+          "signature": "hasData()",
+          "name": "hasData",
+          "source_line": 199,
+          "kind": "callable",
+          "end_source_line": 206,
+          "line": 75,
+          "end_line": 82
+        },
+        {
+          "signature": "getMountPath()",
+          "name": "getMountPath",
+          "source_line": 207,
+          "kind": "callable",
+          "end_source_line": 214,
+          "line": 83,
+          "end_line": 90
+        },
+        {
+          "signature": "hasAudio()",
+          "name": "hasAudio",
+          "source_line": 215,
+          "kind": "callable",
+          "end_source_line": 221,
+          "line": 91,
+          "end_line": 97
+        },
+        {
+          "signature": "getAudioTitle()",
+          "name": "getAudioTitle",
+          "source_line": 222,
+          "kind": "callable",
+          "end_source_line": 229,
+          "line": 98,
+          "end_line": 105
+        },
+        {
+          "signature": "playAudio()",
+          "name": "playAudio",
+          "source_line": 230,
+          "kind": "callable",
+          "end_source_line": 234,
+          "line": 106,
+          "end_line": 110
+        },
+        {
+          "signature": "stopAudio()",
+          "name": "stopAudio",
+          "source_line": 235,
+          "kind": "callable",
+          "end_source_line": 241,
+          "line": 111,
+          "end_line": 117
+        },
+        {
+          "signature": "ejectDisk()",
+          "name": "ejectDisk",
+          "source_line": 242,
+          "kind": "callable",
+          "end_source_line": 246,
+          "line": 118,
+          "end_line": 122
+        },
+        {
+          "signature": "getDiskID()",
+          "name": "getDiskID",
+          "source_line": 247,
+          "kind": "callable",
+          "end_source_line": 259,
+          "line": 123,
+          "end_line": 135
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "b6151e3fb09e9a5c0f7449e7576c1f944bf89170afe40ca4502d5c7d8d173b45"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/modem.html",
+      "category": "peripheral",
+      "name": "modem",
+      "title": "modem",
+      "path": "pages/peripheral--modem.md",
+      "total_source_lines": 488,
+      "covered_source_lines": 488,
+      "body_start_source_line": 132,
+      "members": [
+        {
+          "signature": "open(channel)",
+          "name": "open",
+          "source_line": 274,
+          "kind": "callable",
+          "end_source_line": 287,
+          "line": 147,
+          "end_line": 160
+        },
+        {
+          "signature": "isOpen(channel)",
+          "name": "isOpen",
+          "source_line": 288,
+          "kind": "callable",
+          "end_source_line": 303,
+          "line": 161,
+          "end_line": 176
+        },
+        {
+          "signature": "close(channel)",
+          "name": "close",
+          "source_line": 304,
+          "kind": "callable",
+          "end_source_line": 315,
+          "line": 177,
+          "end_line": 188
+        },
+        {
+          "signature": "closeAll()",
+          "name": "closeAll",
+          "source_line": 316,
+          "kind": "callable",
+          "end_source_line": 320,
+          "line": 189,
+          "end_line": 193
+        },
+        {
+          "signature": "transmit(channel, replyChannel, payload)",
+          "name": "transmit",
+          "source_line": 321,
+          "kind": "callable",
+          "end_source_line": 344,
+          "line": 194,
+          "end_line": 217
+        },
+        {
+          "signature": "isWireless()",
+          "name": "isWireless",
+          "source_line": 345,
+          "kind": "callable",
+          "end_source_line": 353,
+          "line": 218,
+          "end_line": 226
+        },
+        {
+          "signature": "getNamesRemote()",
+          "name": "getNamesRemote",
+          "source_line": 354,
+          "kind": "callable",
+          "end_source_line": 366,
+          "line": 227,
+          "end_line": 239
+        },
+        {
+          "signature": "isPresentRemote(name)",
+          "name": "isPresentRemote",
+          "source_line": 367,
+          "kind": "callable",
+          "end_source_line": 385,
+          "line": 240,
+          "end_line": 258
+        },
+        {
+          "signature": "getTypeRemote(name)",
+          "name": "getTypeRemote",
+          "source_line": 386,
+          "kind": "callable",
+          "end_source_line": 408,
+          "line": 259,
+          "end_line": 281
+        },
+        {
+          "signature": "hasTypeRemote(name, type)",
+          "name": "hasTypeRemote",
+          "source_line": 409,
+          "kind": "callable",
+          "end_source_line": 432,
+          "line": 282,
+          "end_line": 305
+        },
+        {
+          "signature": "getMethodsRemote(name)",
+          "name": "getMethodsRemote",
+          "source_line": 433,
+          "kind": "callable",
+          "end_source_line": 451,
+          "line": 306,
+          "end_line": 324
+        },
+        {
+          "signature": "callRemote(remoteName, method, ...)",
+          "name": "callRemote",
+          "source_line": 452,
+          "kind": "callable",
+          "end_source_line": 471,
+          "line": 325,
+          "end_line": 344
+        },
+        {
+          "signature": "getNameLocal()",
+          "name": "getNameLocal",
+          "source_line": 472,
+          "kind": "callable",
+          "end_source_line": 487,
+          "line": 345,
+          "end_line": 360
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "042c0f348938507588d30cb41cf3075955af7fc665fae386a4f170785b3a3f11"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/monitor.html",
+      "category": "peripheral",
+      "name": "monitor",
+      "title": "monitor",
+      "path": "pages/peripheral--monitor.md",
+      "total_source_lines": 623,
+      "covered_source_lines": 623,
+      "body_start_source_line": 142,
+      "members": [
+        {
+          "signature": "setTextScale(scale)",
+          "name": "setTextScale",
+          "source_line": 231,
+          "kind": "callable",
+          "end_source_line": 245,
+          "line": 94,
+          "end_line": 108
+        },
+        {
+          "signature": "getTextScale()",
+          "name": "getTextScale",
+          "source_line": 246,
+          "kind": "callable",
+          "end_source_line": 260,
+          "line": 109,
+          "end_line": 123
+        },
+        {
+          "signature": "write(text)",
+          "name": "write",
+          "source_line": 261,
+          "kind": "callable",
+          "end_source_line": 269,
+          "line": 124,
+          "end_line": 132
+        },
+        {
+          "signature": "scroll(y)",
+          "name": "scroll",
+          "source_line": 270,
+          "kind": "callable",
+          "end_source_line": 279,
+          "line": 133,
+          "end_line": 142
+        },
+        {
+          "signature": "getCursorPos()",
+          "name": "getCursorPos",
+          "source_line": 280,
+          "kind": "callable",
+          "end_source_line": 287,
+          "line": 143,
+          "end_line": 150
+        },
+        {
+          "signature": "setCursorPos(x, y)",
+          "name": "setCursorPos",
+          "source_line": 288,
+          "kind": "callable",
+          "end_source_line": 296,
+          "line": 151,
+          "end_line": 159
+        },
+        {
+          "signature": "getCursorBlink()",
+          "name": "getCursorBlink",
+          "source_line": 297,
+          "kind": "callable",
+          "end_source_line": 307,
+          "line": 160,
+          "end_line": 170
+        },
+        {
+          "signature": "setCursorBlink(blink)",
+          "name": "setCursorBlink",
+          "source_line": 308,
+          "kind": "callable",
+          "end_source_line": 315,
+          "line": 171,
+          "end_line": 178
+        },
+        {
+          "signature": "getSize()",
+          "name": "getSize",
+          "source_line": 316,
+          "kind": "callable",
+          "end_source_line": 323,
+          "line": 179,
+          "end_line": 186
+        },
+        {
+          "signature": "clear()",
+          "name": "clear",
+          "source_line": 324,
+          "kind": "callable",
+          "end_source_line": 328,
+          "line": 187,
+          "end_line": 191
+        },
+        {
+          "signature": "clearLine()",
+          "name": "clearLine",
+          "source_line": 329,
+          "kind": "callable",
+          "end_source_line": 333,
+          "line": 192,
+          "end_line": 196
+        },
+        {
+          "signature": "getTextColour()",
+          "name": "getTextColour",
+          "source_line": 334,
+          "kind": "callable",
+          "end_source_line": 348,
+          "line": 197,
+          "end_line": 211
+        },
+        {
+          "signature": "getTextColor()",
+          "name": "getTextColor",
+          "source_line": 349,
+          "kind": "callable",
+          "end_source_line": 364,
+          "line": 212,
+          "end_line": 227
+        },
+        {
+          "signature": "setTextColour(colour)",
+          "name": "setTextColour",
+          "source_line": 365,
+          "kind": "callable",
+          "end_source_line": 380,
+          "line": 228,
+          "end_line": 243
+        },
+        {
+          "signature": "setTextColor(colour)",
+          "name": "setTextColor",
+          "source_line": 381,
+          "kind": "callable",
+          "end_source_line": 396,
+          "line": 244,
+          "end_line": 259
+        },
+        {
+          "signature": "getBackgroundColour()",
+          "name": "getBackgroundColour",
+          "source_line": 397,
+          "kind": "callable",
+          "end_source_line": 411,
+          "line": 260,
+          "end_line": 274
+        },
+        {
+          "signature": "getBackgroundColor()",
+          "name": "getBackgroundColor",
+          "source_line": 412,
+          "kind": "callable",
+          "end_source_line": 426,
+          "line": 275,
+          "end_line": 289
+        },
+        {
+          "signature": "setBackgroundColour(colour)",
+          "name": "setBackgroundColour",
+          "source_line": 427,
+          "kind": "callable",
+          "end_source_line": 442,
+          "line": 290,
+          "end_line": 305
+        },
+        {
+          "signature": "setBackgroundColor(colour)",
+          "name": "setBackgroundColor",
+          "source_line": 443,
+          "kind": "callable",
+          "end_source_line": 458,
+          "line": 306,
+          "end_line": 321
+        },
+        {
+          "signature": "isColour()",
+          "name": "isColour",
+          "source_line": 459,
+          "kind": "callable",
+          "end_source_line": 471,
+          "line": 322,
+          "end_line": 334
+        },
+        {
+          "signature": "isColor()",
+          "name": "isColor",
+          "source_line": 472,
+          "kind": "callable",
+          "end_source_line": 484,
+          "line": 335,
+          "end_line": 347
+        },
+        {
+          "signature": "blit(text, textColour, backgroundColour)",
+          "name": "blit",
+          "source_line": 485,
+          "kind": "callable",
+          "end_source_line": 513,
+          "line": 348,
+          "end_line": 376
+        },
+        {
+          "signature": "setPaletteColour(...)",
+          "name": "setPaletteColour",
+          "source_line": 514,
+          "kind": "callable",
+          "end_source_line": 549,
+          "line": 377,
+          "end_line": 412
+        },
+        {
+          "signature": "setPaletteColor(...)",
+          "name": "setPaletteColor",
+          "source_line": 550,
+          "kind": "callable",
+          "end_source_line": 587,
+          "line": 413,
+          "end_line": 450
+        },
+        {
+          "signature": "getPaletteColour(colour)",
+          "name": "getPaletteColour",
+          "source_line": 588,
+          "kind": "callable",
+          "end_source_line": 604,
+          "line": 451,
+          "end_line": 467
+        },
+        {
+          "signature": "getPaletteColor(colour)",
+          "name": "getPaletteColor",
+          "source_line": 605,
+          "kind": "callable",
+          "end_source_line": 622,
+          "line": 468,
+          "end_line": 485
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "b473f04447f09fca808e38478244c18a785404801d5cc74fd2e7bf00e409c2fd"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/printer.html",
+      "category": "peripheral",
+      "name": "printer",
+      "title": "printer",
+      "path": "pages/peripheral--printer.md",
+      "total_source_lines": 308,
+      "covered_source_lines": 308,
+      "body_start_source_line": 127,
+      "members": [
+        {
+          "signature": "write(text)",
+          "name": "write",
+          "source_line": 206,
+          "kind": "callable",
+          "end_source_line": 217,
+          "line": 84,
+          "end_line": 95
+        },
+        {
+          "signature": "getCursorPos()",
+          "name": "getCursorPos",
+          "source_line": 218,
+          "kind": "callable",
+          "end_source_line": 230,
+          "line": 96,
+          "end_line": 108
+        },
+        {
+          "signature": "setCursorPos(x, y)",
+          "name": "setCursorPos",
+          "source_line": 231,
+          "kind": "callable",
+          "end_source_line": 244,
+          "line": 109,
+          "end_line": 122
+        },
+        {
+          "signature": "getPageSize()",
+          "name": "getPageSize",
+          "source_line": 245,
+          "kind": "callable",
+          "end_source_line": 257,
+          "line": 123,
+          "end_line": 135
+        },
+        {
+          "signature": "newPage()",
+          "name": "newPage",
+          "source_line": 258,
+          "kind": "callable",
+          "end_source_line": 265,
+          "line": 136,
+          "end_line": 143
+        },
+        {
+          "signature": "endPage()",
+          "name": "endPage",
+          "source_line": 266,
+          "kind": "callable",
+          "end_source_line": 278,
+          "line": 144,
+          "end_line": 156
+        },
+        {
+          "signature": "setPageTitle([title])",
+          "name": "setPageTitle",
+          "source_line": 279,
+          "kind": "callable",
+          "end_source_line": 290,
+          "line": 157,
+          "end_line": 168
+        },
+        {
+          "signature": "getInkLevel()",
+          "name": "getInkLevel",
+          "source_line": 291,
+          "kind": "callable",
+          "end_source_line": 298,
+          "line": 169,
+          "end_line": 176
+        },
+        {
+          "signature": "getPaperLevel()",
+          "name": "getPaperLevel",
+          "source_line": 299,
+          "kind": "callable",
+          "end_source_line": 307,
+          "line": 177,
+          "end_line": 185
+        }
+      ],
+      "last_updated": "2026-09-28",
+      "sha256": "a3e472b7ce8625ca65d22e4366132533347fde97e6afc9633ebc9a9704b8d23f"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/redstone_relay.html",
+      "category": "peripheral",
+      "name": "redstone_relay",
+      "title": "redstone_relay",
+      "path": "pages/peripheral--redstone_relay.md",
+      "total_source_lines": 383,
+      "covered_source_lines": 383,
+      "body_start_source_line": 132,
+      "members": [
+        {
+          "signature": "setOutput(side, on)",
+          "name": "setOutput",
+          "source_line": 183,
+          "kind": "callable",
+          "end_source_line": 190,
+          "line": 56,
+          "end_line": 63
+        },
+        {
+          "signature": "getOutput(side)",
+          "name": "getOutput",
+          "source_line": 191,
+          "kind": "callable",
+          "end_source_line": 205,
+          "line": 64,
+          "end_line": 78
+        },
+        {
+          "signature": "getInput(side)",
+          "name": "getInput",
+          "source_line": 206,
+          "kind": "callable",
+          "end_source_line": 217,
+          "line": 79,
+          "end_line": 90
+        },
+        {
+          "signature": "setAnalogOutput(side, value)",
+          "name": "setAnalogOutput",
+          "source_line": 218,
+          "kind": "callable",
+          "end_source_line": 233,
+          "line": 91,
+          "end_line": 106
+        },
+        {
+          "signature": "setAnalogueOutput(side, value)",
+          "name": "setAnalogueOutput",
+          "source_line": 234,
+          "kind": "callable",
+          "end_source_line": 249,
+          "line": 107,
+          "end_line": 122
+        },
+        {
+          "signature": "getAnalogOutput(side)",
+          "name": "getAnalogOutput",
+          "source_line": 250,
+          "kind": "callable",
+          "end_source_line": 269,
+          "line": 123,
+          "end_line": 142
+        },
+        {
+          "signature": "getAnalogueOutput(side)",
+          "name": "getAnalogueOutput",
+          "source_line": 270,
+          "kind": "callable",
+          "end_source_line": 288,
+          "line": 143,
+          "end_line": 161
+        },
+        {
+          "signature": "getAnalogInput(side)",
+          "name": "getAnalogInput",
+          "source_line": 289,
+          "kind": "callable",
+          "end_source_line": 303,
+          "line": 162,
+          "end_line": 176
+        },
+        {
+          "signature": "getAnalogueInput(side)",
+          "name": "getAnalogueInput",
+          "source_line": 304,
+          "kind": "callable",
+          "end_source_line": 319,
+          "line": 177,
+          "end_line": 192
+        },
+        {
+          "signature": "setBundledOutput(side, output)",
+          "name": "setBundledOutput",
+          "source_line": 320,
+          "kind": "callable",
+          "end_source_line": 332,
+          "line": 193,
+          "end_line": 205
+        },
+        {
+          "signature": "getBundledOutput(side)",
+          "name": "getBundledOutput",
+          "source_line": 333,
+          "kind": "callable",
+          "end_source_line": 343,
+          "line": 206,
+          "end_line": 216
+        },
+        {
+          "signature": "getBundledInput(side)",
+          "name": "getBundledInput",
+          "source_line": 344,
+          "kind": "callable",
+          "end_source_line": 359,
+          "line": 217,
+          "end_line": 232
+        },
+        {
+          "signature": "testBundledInput(side, mask)",
+          "name": "testBundledInput",
+          "source_line": 360,
+          "kind": "callable",
+          "end_source_line": 382,
+          "line": 233,
+          "end_line": 255
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "22d6a1e16fa8d3a8f18846d511a4fc49a1c811f4c8f22bb77ea6b82977f81bf5"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/speaker.html",
+      "category": "peripheral",
+      "name": "speaker",
+      "title": "speaker",
+      "path": "pages/peripheral--speaker.md",
+      "total_source_lines": 271,
+      "covered_source_lines": 271,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "playNote(instrument [, volume [, pitch]])",
+          "name": "playNote",
+          "source_line": 162,
+          "kind": "callable",
+          "end_source_line": 188,
+          "line": 45,
+          "end_line": 71
+        },
+        {
+          "signature": "playSound(name [, volume [, pitch]])",
+          "name": "playSound",
+          "source_line": 189,
+          "kind": "callable",
+          "end_source_line": 216,
+          "line": 72,
+          "end_line": 99
+        },
+        {
+          "signature": "playAudio(audio [, volume])",
+          "name": "playAudio",
+          "source_line": 217,
+          "kind": "callable",
+          "end_source_line": 260,
+          "line": 100,
+          "end_line": 143
+        },
+        {
+          "signature": "stop()",
+          "name": "stop",
+          "source_line": 261,
+          "kind": "callable",
+          "end_source_line": 270,
+          "line": 144,
+          "end_line": 153
+        }
+      ],
+      "last_updated": "2026-10-01",
+      "sha256": "68bfa20bd0639d639a1a0f35204003634f94c58b30268f5740ae52021786974e"
+    },
+    {
+      "url": "https://tweaked.cc/peripheral/turtle_storage.html",
+      "category": "peripheral",
+      "name": "turtle_storage",
+      "title": "turtle_storage",
+      "path": "pages/peripheral--turtle_storage.md",
+      "total_source_lines": 216,
+      "covered_source_lines": 216,
+      "body_start_source_line": 124,
+      "members": [
+        {
+          "signature": "size()",
+          "name": "size",
+          "source_line": 138,
+          "kind": "callable",
+          "end_source_line": 144,
+          "line": 19,
+          "end_line": 25
+        },
+        {
+          "signature": "list()",
+          "name": "list",
+          "source_line": 145,
+          "kind": "callable",
+          "end_source_line": 158,
+          "line": 26,
+          "end_line": 39
+        },
+        {
+          "signature": "getItemDetail(slot)",
+          "name": "getItemDetail",
+          "source_line": 159,
+          "kind": "callable",
+          "end_source_line": 178,
+          "line": 40,
+          "end_line": 59
+        },
+        {
+          "signature": "pushItems(fromSlot [, limit [, toSlot]])",
+          "name": "pushItems",
+          "source_line": 179,
+          "kind": "callable",
+          "end_source_line": 196,
+          "line": 60,
+          "end_line": 77
+        },
+        {
+          "signature": "pullItems([fromSlot [, limit [, toSlot]]])",
+          "name": "pullItems",
+          "source_line": 197,
+          "kind": "callable",
+          "end_source_line": 215,
+          "line": 78,
+          "end_line": 96
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "76ae291c581b8d69ea5f45e9bdcd5e0cd5e71f2f4b49aa084054a413c22a6153"
+    },
+    {
+      "url": "https://tweaked.cc/generic_peripheral/energy_storage.html",
+      "category": "generic_peripheral",
+      "name": "energy_storage",
+      "title": "energy_storage",
+      "path": "pages/generic_peripheral--energy_storage.md",
+      "total_source_lines": 153,
+      "covered_source_lines": 153,
+      "body_start_source_line": 121,
+      "members": [
+        {
+          "signature": "getEnergy()",
+          "name": "getEnergy",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 143,
+          "line": 20,
+          "end_line": 27
+        },
+        {
+          "signature": "getEnergyCapacity()",
+          "name": "getEnergyCapacity",
+          "source_line": 144,
+          "kind": "callable",
+          "end_source_line": 152,
+          "line": 28,
+          "end_line": 36
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "32c4e1f01c2870bea5841dec3b936e902f30dddf8dd4cb00a6740c4bbb9367cc"
+    },
+    {
+      "url": "https://tweaked.cc/generic_peripheral/fluid_storage.html",
+      "category": "generic_peripheral",
+      "name": "fluid_storage",
+      "title": "fluid_storage",
+      "path": "pages/generic_peripheral--fluid_storage.md",
+      "total_source_lines": 187,
+      "covered_source_lines": 187,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "tanks()",
+          "name": "tanks",
+          "source_line": 132,
+          "kind": "callable",
+          "end_source_line": 141,
+          "line": 15,
+          "end_line": 24
+        },
+        {
+          "signature": "pushFluid(toName [, limit [, fluidName]])",
+          "name": "pushFluid",
+          "source_line": 142,
+          "kind": "callable",
+          "end_source_line": 163,
+          "line": 25,
+          "end_line": 46
+        },
+        {
+          "signature": "pullFluid(fromName [, limit [, fluidName]])",
+          "name": "pullFluid",
+          "source_line": 164,
+          "kind": "callable",
+          "end_source_line": 186,
+          "line": 47,
+          "end_line": 69
+        }
+      ],
+      "last_updated": "2026-09-21",
+      "sha256": "2d30eb26ff7cec060f231f310f80b8701c16add6bb5d1fa2ed8f02361eeab13a"
+    },
+    {
+      "url": "https://tweaked.cc/generic_peripheral/inventory.html",
+      "category": "generic_peripheral",
+      "name": "inventory",
+      "title": "inventory",
+      "path": "pages/generic_peripheral--inventory.md",
+      "total_source_lines": 295,
+      "covered_source_lines": 295,
+      "body_start_source_line": 125,
+      "members": [
+        {
+          "signature": "size()",
+          "name": "size",
+          "source_line": 136,
+          "kind": "callable",
+          "end_source_line": 142,
+          "line": 16,
+          "end_line": 22
+        },
+        {
+          "signature": "list()",
+          "name": "list",
+          "source_line": 143,
+          "kind": "callable",
+          "end_source_line": 164,
+          "line": 23,
+          "end_line": 44
+        },
+        {
+          "signature": "getItemDetail(slot)",
+          "name": "getItemDetail",
+          "source_line": 165,
+          "kind": "callable",
+          "end_source_line": 196,
+          "line": 45,
+          "end_line": 76
+        },
+        {
+          "signature": "getItemLimit(slot)",
+          "name": "getItemLimit",
+          "source_line": 197,
+          "kind": "callable",
+          "end_source_line": 227,
+          "line": 77,
+          "end_line": 107
+        },
+        {
+          "signature": "pushItems(toName, fromSlot [, limit [, toSlot]])",
+          "name": "pushItems",
+          "source_line": 228,
+          "kind": "callable",
+          "end_source_line": 260,
+          "line": 108,
+          "end_line": 140
+        },
+        {
+          "signature": "pullItems(fromName, fromSlot [, limit [, toSlot]])",
+          "name": "pullItems",
+          "source_line": 261,
+          "kind": "callable",
+          "end_source_line": 294,
+          "line": 141,
+          "end_line": 174
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "7712c674072331cdf5876b3cf7994c3fd493de541fd080b651b155f954cde89f"
+    },
+    {
+      "url": "https://tweaked.cc/event/alarm.html",
+      "category": "event",
+      "name": "alarm",
+      "title": "alarm",
+      "path": "pages/event--alarm.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "1a7165b01725effdc1aa1c02840b6aa91a3f7c4c8b60126564f3c8e512f30dc3"
+    },
+    {
+      "url": "https://tweaked.cc/event/char.html",
+      "category": "event",
+      "name": "char",
+      "title": "char",
+      "path": "pages/event--char.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-29",
+      "sha256": "2b1af6e369de9987a19ec25f013912dd99b995648c91f94e631e417093abcca9"
+    },
+    {
+      "url": "https://tweaked.cc/event/computer_command.html",
+      "category": "event",
+      "name": "computer_command",
+      "title": "computer_command",
+      "path": "pages/event--computer_command.md",
+      "total_source_lines": 134,
+      "covered_source_lines": 134,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "1adf1f372ec1f797985923445b3ad5b1e0e235b1e5ce13f25b0bc95a1c06b7d6"
+    },
+    {
+      "url": "https://tweaked.cc/event/disk.html",
+      "category": "event",
+      "name": "disk",
+      "title": "disk",
+      "path": "pages/event--disk.md",
+      "total_source_lines": 137,
+      "covered_source_lines": 137,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "95a0824b44ea1f6e02a028cb5072b778ab1b6f03191874a53cb8a4f5eb9cbc1c"
+    },
+    {
+      "url": "https://tweaked.cc/event/disk_eject.html",
+      "category": "event",
+      "name": "disk_eject",
+      "title": "disk_eject",
+      "path": "pages/event--disk_eject.md",
+      "total_source_lines": 137,
+      "covered_source_lines": 137,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "c80465105484c58337bd29a91597fbfb16aed7b360334fd161322f000b1859ef"
+    },
+    {
+      "url": "https://tweaked.cc/event/file_transfer.html",
+      "category": "event",
+      "name": "file_transfer",
+      "title": "file_transfer",
+      "path": "pages/event--file_transfer.md",
+      "total_source_lines": 193,
+      "covered_source_lines": 193,
+      "body_start_source_line": 122,
+      "members": [
+        {
+          "signature": "TransferredFiles.getFiles()",
+          "name": "TransferredFiles.getFiles",
+          "source_line": 166,
+          "kind": "callable",
+          "end_source_line": 183,
+          "line": 49,
+          "end_line": 66
+        },
+        {
+          "signature": "TransferredFile.getName()",
+          "name": "TransferredFile.getName",
+          "source_line": 184,
+          "kind": "callable",
+          "end_source_line": 192,
+          "line": 67,
+          "end_line": 75
+        }
+      ],
+      "last_updated": "2026-10-02",
+      "sha256": "c2b8701d49fbadffe6967a4099c4ae538438c823a9923cdeb6230ce6792e3256"
+    },
+    {
+      "url": "https://tweaked.cc/event/http_check.html",
+      "category": "event",
+      "name": "http_check",
+      "title": "http_check",
+      "path": "pages/event--http_check.md",
+      "total_source_lines": 132,
+      "covered_source_lines": 132,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "5a20768643e8302f7fd8ccf031b0c300dca47effa158e135237c23a2dca3e877"
+    },
+    {
+      "url": "https://tweaked.cc/event/http_failure.html",
+      "category": "event",
+      "name": "http_failure",
+      "title": "http_failure",
+      "path": "pages/event--http_failure.md",
+      "total_source_lines": 153,
+      "covered_source_lines": 153,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-10-01",
+      "sha256": "ad2da54c0623711591dda70f71ae750f6a6a89733f7d95a271cf3c331a7d3e97"
+    },
+    {
+      "url": "https://tweaked.cc/event/http_success.html",
+      "category": "event",
+      "name": "http_success",
+      "title": "http_success",
+      "path": "pages/event--http_success.md",
+      "total_source_lines": 145,
+      "covered_source_lines": 145,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "608af8db7d1e47f26cd089c466fb039171503302fd368d2f1d52ea4a635d27ab"
+    },
+    {
+      "url": "https://tweaked.cc/event/key.html",
+      "category": "event",
+      "name": "key",
+      "title": "key",
+      "path": "pages/event--key.md",
+      "total_source_lines": 138,
+      "covered_source_lines": 138,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "6a445cf2c97eeea5635b4d1c276750e23218d8a04c489db72a8cce5e7b6369a4"
+    },
+    {
+      "url": "https://tweaked.cc/event/key_up.html",
+      "category": "event",
+      "name": "key_up",
+      "title": "key_up",
+      "path": "pages/event--key_up.md",
+      "total_source_lines": 140,
+      "covered_source_lines": 140,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "89931a4ce3dfcc62027acbcf17b5a437f350d01540900e80dfdb897df9c54b2e"
+    },
+    {
+      "url": "https://tweaked.cc/event/modem_message.html",
+      "category": "event",
+      "name": "modem_message",
+      "title": "modem_message",
+      "path": "pages/event--modem_message.md",
+      "total_source_lines": 141,
+      "covered_source_lines": 141,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "d48aefc2d34ccfea35ce0311575202b1e6fc7f9708a55a776483994f4d8befd8"
+    },
+    {
+      "url": "https://tweaked.cc/event/monitor_resize.html",
+      "category": "event",
+      "name": "monitor_resize",
+      "title": "monitor_resize",
+      "path": "pages/event--monitor_resize.md",
+      "total_source_lines": 134,
+      "covered_source_lines": 134,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "7d57f68eb748324aaf47e2230e3495ebe399c9168b8c6c1741cf7b2da88a5435"
+    },
+    {
+      "url": "https://tweaked.cc/event/monitor_touch.html",
+      "category": "event",
+      "name": "monitor_touch",
+      "title": "monitor_touch",
+      "path": "pages/event--monitor_touch.md",
+      "total_source_lines": 136,
+      "covered_source_lines": 136,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-10-01",
+      "sha256": "7a39847b9f5adf1e03758287086415e4b4cb32825eecb5d02dd8fcb080c337f0"
+    },
+    {
+      "url": "https://tweaked.cc/event/mouse_click.html",
+      "category": "event",
+      "name": "mouse_click",
+      "title": "mouse_click",
+      "path": "pages/event--mouse_click.md",
+      "total_source_lines": 145,
+      "covered_source_lines": 145,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-29",
+      "sha256": "2b6774a72e90d0748348be6631d405ccf3a58d467b84eddb343a66550156b7ef"
+    },
+    {
+      "url": "https://tweaked.cc/event/mouse_drag.html",
+      "category": "event",
+      "name": "mouse_drag",
+      "title": "mouse_drag",
+      "path": "pages/event--mouse_drag.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "ac4767a292c9f41990475d471aa0c9d58e729131fcec6aba6a0b26ab79dca874"
+    },
+    {
+      "url": "https://tweaked.cc/event/mouse_scroll.html",
+      "category": "event",
+      "name": "mouse_scroll",
+      "title": "mouse_scroll",
+      "path": "pages/event--mouse_scroll.md",
+      "total_source_lines": 136,
+      "covered_source_lines": 136,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "46b8d6e8e0200dd6ee7c5cce8dff740b2f92bfce3571ee143b07245e5cecf636"
+    },
+    {
+      "url": "https://tweaked.cc/event/mouse_up.html",
+      "category": "event",
+      "name": "mouse_up",
+      "title": "mouse_up",
+      "path": "pages/event--mouse_up.md",
+      "total_source_lines": 136,
+      "covered_source_lines": 136,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "56481a95fba64d18495605b0a01b09f7a83a5781dc3e2f08cdd9ea7290c160ae"
+    },
+    {
+      "url": "https://tweaked.cc/event/paste.html",
+      "category": "event",
+      "name": "paste",
+      "title": "paste",
+      "path": "pages/event--paste.md",
+      "total_source_lines": 135,
+      "covered_source_lines": 135,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-28",
+      "sha256": "3e635759c7dcd1358656319b42da1c6267d3099ad7f18f30a281211f565c4668"
+    },
+    {
+      "url": "https://tweaked.cc/event/peripheral.html",
+      "category": "event",
+      "name": "peripheral",
+      "title": "peripheral",
+      "path": "pages/event--peripheral.md",
+      "total_source_lines": 137,
+      "covered_source_lines": 137,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-30",
+      "sha256": "ffea5e9ee3971b40f8112f5e72fec00a3483e383f564bc5693eabe07dfd338af"
+    },
+    {
+      "url": "https://tweaked.cc/event/peripheral_detach.html",
+      "category": "event",
+      "name": "peripheral_detach",
+      "title": "peripheral_detach",
+      "path": "pages/event--peripheral_detach.md",
+      "total_source_lines": 137,
+      "covered_source_lines": 137,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-10-01",
+      "sha256": "a762aa0bf5a624b9bcc9ca879c1f7ebc46b11ec98e5d584f8c5757b8c949d982"
+    },
+    {
+      "url": "https://tweaked.cc/event/rednet_message.html",
+      "category": "event",
+      "name": "rednet_message",
+      "title": "rednet_message",
+      "path": "pages/event--rednet_message.md",
+      "total_source_lines": 146,
+      "covered_source_lines": 146,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "51aa11c483e76351692c833c520c757db37e064345007f61e21c95e5c2fd515f"
+    },
+    {
+      "url": "https://tweaked.cc/event/redstone.html",
+      "category": "event",
+      "name": "redstone",
+      "title": "redstone",
+      "path": "pages/event--redstone.md",
+      "total_source_lines": 138,
+      "covered_source_lines": 138,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-29",
+      "sha256": "84758915f9a7a6fa01471d7d15483347c0d499e47d51578690e12d040379ad0b"
+    },
+    {
+      "url": "https://tweaked.cc/event/setting_changed.html",
+      "category": "event",
+      "name": "setting_changed",
+      "title": "setting_changed",
+      "path": "pages/event--setting_changed.md",
+      "total_source_lines": 137,
+      "covered_source_lines": 137,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "2b7698482842b17bcd5782fa1df9dc9398329f97a33553a1faa447a797d8592e"
+    },
+    {
+      "url": "https://tweaked.cc/event/speaker_audio_empty.html",
+      "category": "event",
+      "name": "speaker_audio_empty",
+      "title": "speaker_audio_empty",
+      "path": "pages/event--speaker_audio_empty.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "d1e05c4f7f9e3f459a859d484a03d5c11d7cdc6af0a324048281e9b0399e8c9c"
+    },
+    {
+      "url": "https://tweaked.cc/event/task_complete.html",
+      "category": "event",
+      "name": "task_complete",
+      "title": "task_complete",
+      "path": "pages/event--task_complete.md",
+      "total_source_lines": 144,
+      "covered_source_lines": 144,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-30",
+      "sha256": "0fd25e7026b2602709e5446e164d7ce434af4c06c79bdd19b3222320d7c1eea0"
+    },
+    {
+      "url": "https://tweaked.cc/event/term_resize.html",
+      "category": "event",
+      "name": "term_resize",
+      "title": "term_resize",
+      "path": "pages/event--term_resize.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "27a9ff62dc354e7e4dcd94b1e6ca1f081b4cc809ffbcbd7995c567359d3aaf1f"
+    },
+    {
+      "url": "https://tweaked.cc/event/terminate.html",
+      "category": "event",
+      "name": "terminate",
+      "title": "terminate",
+      "path": "pages/event--terminate.md",
+      "total_source_lines": 144,
+      "covered_source_lines": 144,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "1f3e7b9420a739610152348df196b141a7ff3211a41593d94d340a2efeb4a89d"
+    },
+    {
+      "url": "https://tweaked.cc/event/timer.html",
+      "category": "event",
+      "name": "timer",
+      "title": "timer",
+      "path": "pages/event--timer.md",
+      "total_source_lines": 139,
+      "covered_source_lines": 139,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "9ce1e2df459e3429e247682e4f7ef22bf2f6976fc1182161da19f8cdf1e7d0ed"
+    },
+    {
+      "url": "https://tweaked.cc/event/turtle_inventory.html",
+      "category": "event",
+      "name": "turtle_inventory",
+      "title": "turtle_inventory",
+      "path": "pages/event--turtle_inventory.md",
+      "total_source_lines": 134,
+      "covered_source_lines": 134,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "98b64019d07f00bb27395665b9d70435d8e79aceacf99eee6fef81926a52f4e4"
+    },
+    {
+      "url": "https://tweaked.cc/event/websocket_closed.html",
+      "category": "event",
+      "name": "websocket_closed",
+      "title": "websocket_closed",
+      "path": "pages/event--websocket_closed.md",
+      "total_source_lines": 138,
+      "covered_source_lines": 138,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-18",
+      "sha256": "ca45982a0c38c0de3caef5d74034b280e38ce425fc3f2611cb5dce6f892e0bd5"
+    },
+    {
+      "url": "https://tweaked.cc/event/websocket_failure.html",
+      "category": "event",
+      "name": "websocket_failure",
+      "title": "websocket_failure",
+      "path": "pages/event--websocket_failure.md",
+      "total_source_lines": 143,
+      "covered_source_lines": 143,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "f43fd93bed0802d1ac770510115a41aef861ac35ee2dac12986627b069708c1a"
+    },
+    {
+      "url": "https://tweaked.cc/event/websocket_message.html",
+      "category": "event",
+      "name": "websocket_message",
+      "title": "websocket_message",
+      "path": "pages/event--websocket_message.md",
+      "total_source_lines": 143,
+      "covered_source_lines": 143,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "6e32725f6a3b6a55794b72e8c20deda7def9fc16b71e2e08c3118e7a360e048c"
+    },
+    {
+      "url": "https://tweaked.cc/event/websocket_success.html",
+      "category": "event",
+      "name": "websocket_success",
+      "title": "websocket_success",
+      "path": "pages/event--websocket_success.md",
+      "total_source_lines": 145,
+      "covered_source_lines": 145,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "08254d1b90daa03f7e327789994632d27b44340293e340193f538db11f0d074f"
+    },
+    {
+      "url": "https://tweaked.cc/guide/gps_setup.html",
+      "category": "guide",
+      "name": "gps_setup",
+      "title": "Setting up GPS",
+      "path": "pages/guide--gps_setup.md",
+      "total_source_lines": 165,
+      "covered_source_lines": 165,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "5870d63920717d753e20487ab30f91b9178a32e47394890dad6bf4e3ec78e21a"
+    },
+    {
+      "url": "https://tweaked.cc/guide/local_ips.html",
+      "category": "guide",
+      "name": "local_ips",
+      "title": "Allowing access to local IPs",
+      "path": "pages/guide--local_ips.md",
+      "total_source_lines": 186,
+      "covered_source_lines": 186,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "05482e17c4c4776c5556b07d98b370a169e92c26b76599e49a3aefd4f6fcc74a"
+    },
+    {
+      "url": "https://tweaked.cc/guide/speaker_audio.html",
+      "category": "guide",
+      "name": "speaker_audio",
+      "title": "Playing audio with speakers",
+      "path": "pages/guide--speaker_audio.md",
+      "total_source_lines": 238,
+      "covered_source_lines": 238,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "7750e37b2ffd61fc09ed5a33e991e13bdc6c81e047c9cd2cb5791761819c3b68"
+    },
+    {
+      "url": "https://tweaked.cc/guide/startup.html",
+      "category": "guide",
+      "name": "startup",
+      "title": "Running programs on computer startup",
+      "path": "pages/guide--startup.md",
+      "total_source_lines": 156,
+      "covered_source_lines": 156,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "e57e4825f112913d3f77972c5eff8776c1ba8abb177e9b76aac281f47648f560"
+    },
+    {
+      "url": "https://tweaked.cc/guide/using_require.html",
+      "category": "guide",
+      "name": "using_require",
+      "title": "Reusing code with require",
+      "path": "pages/guide--using_require.md",
+      "total_source_lines": 167,
+      "covered_source_lines": 167,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "9dcd4490f375a0d00ba6a864f41cf30cc4a542428b1b68baa5158c177fc0a2ee"
+    },
+    {
+      "url": "https://tweaked.cc/reference/block_details.html",
+      "category": "reference",
+      "name": "block_details",
+      "title": "Block details",
+      "path": "pages/reference--block_details.md",
+      "total_source_lines": 193,
+      "covered_source_lines": 193,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-24",
+      "sha256": "b43ada2fafa64b429c8d19a42f36c892e01ff98190a20aa0787ad6514e54235f"
+    },
+    {
+      "url": "https://tweaked.cc/reference/breaking_changes.html",
+      "category": "reference",
+      "name": "breaking_changes",
+      "title": "Incompatibilities between versions",
+      "path": "pages/reference--breaking_changes.md",
+      "total_source_lines": 159,
+      "covered_source_lines": 159,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-30",
+      "sha256": "9ed996d4292732dcff2bae17fa6fc610d5916c389950cb1d0a21678f85375829"
+    },
+    {
+      "url": "https://tweaked.cc/reference/computercraft_command.html",
+      "category": "reference",
+      "name": "computercraft_command",
+      "title": "The /computercraft command",
+      "path": "pages/reference--computercraft_command.md",
+      "total_source_lines": 206,
+      "covered_source_lines": 206,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "0e1a03a6b816c375a0074973b8c96f30c6fc071a968192aaa76a895dc6f75d41"
+    },
+    {
+      "url": "https://tweaked.cc/reference/data_pack.html",
+      "category": "reference",
+      "name": "data_pack",
+      "title": "Data packs",
+      "path": "pages/reference--data_pack.md",
+      "total_source_lines": 150,
+      "covered_source_lines": 150,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "dc5cfc2d8affe15f3c53e562e9ffd981ae64b4c2dcd4dc71d3ebf90b6a3eb201"
+    },
+    {
+      "url": "https://tweaked.cc/reference/entity_details.html",
+      "category": "reference",
+      "name": "entity_details",
+      "title": "Entity details",
+      "path": "pages/reference--entity_details.md",
+      "total_source_lines": 174,
+      "covered_source_lines": 174,
+      "body_start_source_line": 115,
+      "members": [],
+      "last_updated": "2026-08-28",
+      "sha256": "a645659fc1ec9c474f9cb0b2bcb5c416e27276132df1c35c8299bb796efcf648"
+    },
+    {
+      "url": "https://tweaked.cc/reference/exceptions.html",
+      "category": "reference",
+      "name": "exceptions",
+      "title": "CraftOS's exception protocol",
+      "path": "pages/reference--exceptions.md",
+      "total_source_lines": 252,
+      "covered_source_lines": 252,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-09-21",
+      "sha256": "f4361a9b1d5650ffca999cd01f8f112554ee6d03e972b9f663b3d9be5902ae2c"
+    },
+    {
+      "url": "https://tweaked.cc/reference/feature_compat.html",
+      "category": "reference",
+      "name": "feature_compat",
+      "title": "Lua 5.2/5.3 features in CC: Tweaked",
+      "path": "pages/reference--feature_compat.md",
+      "total_source_lines": 215,
+      "covered_source_lines": 215,
+      "body_start_source_line": 117,
+      "members": [],
+      "last_updated": "2026-10-02",
+      "sha256": "eee63aa5841389c5f564179018219004a229264f41cd67d702318650b42856d7"
+    },
+    {
+      "url": "https://tweaked.cc/reference/item_details.html",
+      "category": "reference",
+      "name": "item_details",
+      "title": "Item details",
+      "path": "pages/reference--item_details.md",
+      "total_source_lines": 334,
+      "covered_source_lines": 334,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-10-01",
+      "sha256": "65195f28fe2534ed9cb9929faa8ff68a2410832451af6c81d2a868ddec4ab245"
+    },
+    {
+      "url": "https://tweaked.cc/reference/startup.html",
+      "category": "reference",
+      "name": "startup",
+      "title": "Computer startup",
+      "path": "pages/reference--startup.md",
+      "total_source_lines": 136,
+      "covered_source_lines": 136,
+      "body_start_source_line": 116,
+      "members": [],
+      "last_updated": "2026-10-01",
+      "sha256": "1ca6750bb0b9d9e76d764ac523fd4a0d7ea2f7cf574e06408890697eb5c67ca5"
+    }
+  ],
+  "page_count": 96,
+  "member_count": 551,
+  "callable_count": 509,
+  "category_counts": {
+    "home": 1,
+    "module": 26,
+    "library": 9,
+    "peripheral": 9,
+    "generic_peripheral": 3,
+    "event": 34,
+    "guide": 5,
+    "reference": 9
+  },
+  "coverage_verified": true
+}

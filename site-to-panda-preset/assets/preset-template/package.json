@@ -1,0 +1,19 @@
+{
+  "name": "{{PKG}}",
+  "version": "0.1.0",
+  "description": "Panda CSS preset replicating the design system of {{SOURCE}}",
+  "type": "module",
+  "main": "./preset/index.ts",
+  "exports": { ".": "./preset/index.ts" },
+  "files": ["preset"],
+  "scripts": {
+    "codegen": "panda codegen",
+    "css": "panda cssgen --outfile dist/styles.css"
+  },
+  "peerDependencies": { "@pandacss/dev": ">=1.0.0" },
+  "devDependencies": {
+    "@pandacss/dev": "^2.4.0",
+    "@pandacss/preset-base": "^2.4.0",
+    "typescript": "^5.6.0"
+  }
+}

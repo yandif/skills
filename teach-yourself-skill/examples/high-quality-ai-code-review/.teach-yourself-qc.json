@@ -1,0 +1,21 @@
+{
+  "requiredPaths": [
+    "index.html",
+    "course.json",
+    "lessons",
+    "reference/glossary.md",
+    "reference/glossary.html",
+    "assets/course.css",
+    "assets/course.js"
+  ],
+  "contentRoots": [
+    "index.html",
+    "course.json",
+    "lessons",
+    "reference",
+    "assets"
+  ],
+  "forbiddenMermaidTypes": ["mindmap"],
+  "allowedExternalUrlPrefixes": ["https://cdn.jsdelivr.net/npm/mermaid@10/"],
+  "unregisteredExternalUrlSeverity": "warning"
+}

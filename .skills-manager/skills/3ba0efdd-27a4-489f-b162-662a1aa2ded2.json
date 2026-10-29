@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ba0efdd-27a4-489f-b162-662a1aa2ded2",
+  "path": "site-to-panda-preset",
+  "path_key": "site-to-panda-preset",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

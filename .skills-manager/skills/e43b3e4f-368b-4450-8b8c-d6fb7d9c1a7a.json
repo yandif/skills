@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e43b3e4f-368b-4450-8b8c-d6fb7d9c1a7a",
+  "path": "alibabacloud-workbench-cli",
+  "path_key": "alibabacloud-workbench-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

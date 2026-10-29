@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "251ef931-0679-4619-b2be-0f4514c597d3",
+  "path": "artifact-template-interview",
+  "path_key": "artifact-template-interview",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

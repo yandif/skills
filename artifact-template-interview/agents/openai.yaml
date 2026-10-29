@@ -1,0 +1,7 @@
+interface:
+  display_name: "Interview 面试题理解图解"
+  short_description: "把面试题转成帮助理解与口述的手绘知识图解"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-interview，把我提供的面试题和资料转成一张帮助理解并组织口述答案的手绘知识图解。先提炼面试官考点、核心判断、推理链路、常见误区和回答骨架；未指定时使用 16:9 中文画布。"
+policy:
+  allow_implicit_invocation: true

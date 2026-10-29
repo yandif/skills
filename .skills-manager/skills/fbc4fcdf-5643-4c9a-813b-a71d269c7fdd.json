@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fbc4fcdf-5643-4c9a-813b-a71d269c7fdd",
+  "path": "teach-yourself-skill",
+  "path_key": "teach-yourself-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
